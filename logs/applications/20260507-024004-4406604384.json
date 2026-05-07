@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-05-07T02:40:04",
+  "date": "2026-05-07",
+  "source": "linkedin",
+  "source_job_id": "4406604384",
+  "destination": "pandape",
+  "title": "Jefe de Crédito Grupal Agencia Carabayllo",
+  "company": "Compartamos Banco Perú",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4406604384&keywords=Jefe%20de%20Finanzas&location=Lima%2C%20Peru&sortBy=DD",
+  "dest_url": "https://compartamos.pandape.computrabajo.com/Detail/12374784?ov=19&utm_source=linkedinjobboard&utm_medium=referral&utm_campaign=feed&utm_term=organic&utm_content=ats",
+  "status": "applied",
+  "killer_questions": [
+    {
+      "question": "¿Cuánto es tu pretensión salarial?",
+      "answer": "Mi pretensión salarial es de entre 12,000 y 18,000 PEN mensuales, bruto.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Tienes experiencia manejando equipos? ¿Cuántas personas haz dirigido?",
+      "answer": "Tengo experiencia liderando equipos en diversas posiciones. En mi rol como Coordinador General de Proyecto en Grupo Inhouse, dirigí un equipo general que abarcaba áreas comerciales, de proyectos, contabilidad y tesorería. Además, en mi posición actual como Gerente General en Grupo Bros, superviso un equipo que trabaja en la dirección de tesorería y contabilidad.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Cuál es tu grado académico actualizado?",
+      "answer": "Egresado / Titulado",
+      "source": "llm",
+      "options": [
+        "Egresado / Titulado",
+        "Stand by",
+        "Estudiante"
+      ]
+    },
+    {
+      "question": "¿Cuál es tu número de celular y correo electrónico actualizado?",
+      "answer": "999211682 AbadB.Alex@gmail.com",
+      "source": "llm"
+    },
+    {
+      "question": "Menciona tu experiencia laboral relacionada al puesto",
+      "answer": "Cuento con más de 15 años de experiencia en dirección financiera y comercial. Actualmente, soy Gerente General en Grupo Bros, donde he liderado el incremento de facturación anual y la estructuración de inversiones. Anteriormente, trabajé como Coordinador General de Proyecto en Grupo Inhouse - Kallpa, gestionando operaciones de USD 8M anuales y optimizando procesos. También tengo experiencia en Unilever como Business Building Financial Planning Analyst, manejando operaciones de USD 120M anuales. Mi trayectoria incluye roles en contabilidad, tesorería y finanzas en diversos sectores.",
+      "source": "llm"
+    },
+    {
+      "question": "Tienes experiencia en credito grupal?",
+      "answer": "Con gusto puedo detallar este punto en una entrevista.",
+      "source": "llm"
+    },
+    {
+      "question": "¿En qué distrito vives?",
+      "answer": "San Isidro, Lima, Perú.",
+      "source": "llm"
+    }
+  ],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": true
+}

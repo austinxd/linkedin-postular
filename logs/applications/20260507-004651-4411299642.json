@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-05-07T00:46:51",
+  "date": "2026-05-07",
+  "source": "linkedin",
+  "source_job_id": "4411299642",
+  "destination": "pandape",
+  "title": "Jefe de Contabilidad y Finanzas",
+  "company": "Casalinda",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4411299642&keywords=jefe%20de%20finanzas&location=Lima%2C%20Peru&sortBy=DD",
+  "dest_url": "https://casalinda.pandape.computrabajo.com/Detail/12468395?ov=19&utm_source=linkedinjobboard&utm_medium=referral&utm_campaign=feed&utm_term=organic&utm_content=ats",
+  "status": "applied",
+  "killer_questions": [
+    {
+      "question": "¿Cuál es tu grado académico?",
+      "answer": "MBA en Administración de Empresas por la Universidad Internacional de La Rioja (UNIR), finalizado en 2023. También tengo un título universitario en Administración de la Universidad de Lima, obtenido en 2014, con nota de Quinto Superior.",
+      "source": "llm"
+    },
+    {
+      "question": "¿En que distrito reside actualmente?",
+      "answer": "San Isidro",
+      "source": "llm"
+    },
+    {
+      "question": "¿Haz trabajado en empresas Retail?",
+      "answer": "No",
+      "source": "llm",
+      "options": [
+        "Sí",
+        "No"
+      ]
+    },
+    {
+      "question": "¿Cuántos años de experiencia tienes liderando áreas de contabilidad y finanzas?",
+      "answer": "Tengo 13 años de experiencia liderando áreas de contabilidad y finanzas, habiendo trabajado en diversas posiciones como Gerente General, Coordinador General de Proyecto y Business Building Financial Planning Analyst. Durante este tiempo, he desarrollado habilidades en estructuración financiera, optimización de procesos y gestión de equipos.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Cuántas personas has tenido a cargo directamente?",
+      "answer": "Con gusto puedo detallar este punto en una entrevista.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Qué sistemas contables has utilizado? (Ej: CONCAR, SAP, otros ERP)",
+      "answer": "He utilizado SAP y Starsoft en mis experiencias laborales. Además, tengo habilidades en el uso de herramientas como Power BI y SQL para la optimización y automatización de procesos financieros.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Tienes experiencia con herramientas de BI? ¿Cuáles?",
+      "answer": "Tengo experiencia con herramientas de BI, específicamente con Power BI, que utilizo para la optimización y automatización de procesos. Además, tengo conocimientos en SQL, lo que me permite realizar análisis de datos y reporting financiero de manera efectiva.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Has elaborado y controlado presupuestos anuales? Describe el proceso.",
+      "answer": "En mi experiencia como Gerente General y Coordinador General de Proyecto, he elaborado y controlado presupuestos anuales para operaciones significativas. El proceso incluye la recopilación de datos históricos, la proyección de ingresos y gastos, y la colaboración con diferentes departamentos para asegurar que las estimaciones sean realistas. Utilizo herramientas como SQL y Power BI para optimizar el análisis y la presentación de los datos, lo que permite ajustes en tiempo real y una mejor toma de decisiones. Además, realizo un seguimiento continuo del presupuesto para identificar desviaciones y aplicar medidas correctivas cuando es necesario.",
+      "source": "llm"
+    },
+    {
+      "question": "Has atendido fiscalizaciones de SUNAT? Describe tu rol y resultados.",
+      "answer": "No he atendido fiscalizaciones de SUNAT directamente, pero tengo amplia experiencia en dirección financiera y contabilidad, lo que me ha permitido gestionar auditorías y cumplir con normativas fiscales en mis roles anteriores. En mi posición como Gerente General en Grupo Bros, he liderado la dirección de tesorería y contabilidad, optimizando procesos y asegurando el cumplimiento de las regulaciones fiscales, lo que ha contribuido a un incremento significativo en la facturación de la empresa.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Qué tipo de contingencias tributarias has identificado o resuelto?",
+      "answer": "He identificado y resuelto contingencias tributarias significativas, como ahorros tributarios superiores a USD 200K durante mi gestión en Grupo Inhouse - Kallpa. Esto se logró mediante la optimización de procesos y la gestión efectiva de propuestas crediticias con entidades bancarias. Mi enfoque en la planificación financiera y el control de gestión ha sido clave para mitigar riesgos tributarios y asegurar el cumplimiento normativo.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Has coordinado auditorías internas o externas? ¿Qué tipo?",
+      "answer": "Con gusto puedo detallar este punto en una entrevista.",
+      "source": "llm"
+    },
+    {
+      "question": "Contacto actualizado wsp / llamadas",
+      "answer": "999211682 +51 AbadB.Alex@gmail.com",
+      "source": "llm"
+    },
+    {
+      "question": "¿Estas de acuerdo con la Remuneración s/ 3000 soles bajo planilla + Bono Fijo s/ 500 Soles?",
+      "answer": "No",
+      "source": "llm",
+      "options": [
+        "Sí",
+        "No"
+      ]
+    }
+  ],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": true
+}

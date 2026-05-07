@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-05-07T02:41:20",
+  "date": "2026-05-07",
+  "source": "linkedin",
+  "source_job_id": "4406606306",
+  "destination": "pandape",
+  "title": "Jefe de Precios y Promociones",
+  "company": "Medifarma",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4406606306&keywords=Jefe%20de%20Finanzas&location=Lima%2C%20Peru&sortBy=DD",
+  "dest_url": "https://medifarma.pandape.computrabajo.com/Detail/12374470?ov=19&utm_source=linkedinjobboard&utm_medium=referral&utm_campaign=feed&utm_term=organic&utm_content=ats",
+  "status": "applied",
+  "killer_questions": [
+    {
+      "question": "¿Cuales son tus expectativas salariales?",
+      "answer": "Mis expectativas salariales se sitúan entre 12,000 y 18,000 PEN mensuales, en un contrato indefinido y a tiempo completo.",
+      "source": "llm"
+    },
+    {
+      "question": "¿ Cuentas con conocimiento en pricing analytics, promotional effectiveness y revenue management?",
+      "answer": "Con gusto puedo detallar este punto en una entrevista.",
+      "source": "llm"
+    },
+    {
+      "question": "¿ Cuantes con experiencia laborando en industrias de consumo masivo, retail o farmacéutica?",
+      "answer": "Cuento con experiencia en la industria de consumo masivo, específicamente en mi rol como Business Building Financial Planning Analyst en Unilever, donde manejé una operación de USD 120M anuales. Además, tengo una sólida trayectoria en finanzas y contabilidad que me permite aportar valor en este sector.",
+      "source": "llm"
+    },
+    {
+      "question": "¿ Cuentas con experiencia trabajando con áreas comerciales, marketing, trade marketing?",
+      "answer": "Sí, cuento con experiencia trabajando en áreas comerciales y de marketing. En mi rol como Coordinador General de Proyecto en Grupo Inhouse - Kallpa, lideré un equipo que abarcaba funciones comerciales y de proyectos, optimizando procesos y gestionando propuestas crediticias. Además, en mi posición actual como Gerente General en Grupo Bros, he incrementado la facturación anual y estructurado inversiones, lo que implica una estrecha colaboración con áreas comerciales y de marketing.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Cuentas con experiencia demostrable en construcción de modelos analíticos de pricing y promotional effectiveness?",
+      "answer": "Con más de 15 años de experiencia en finanzas y contabilidad, he trabajado en la optimización de procesos y análisis de datos utilizando herramientas como SQL y Power BI. Aunque mi enfoque principal ha sido en la dirección financiera y comercial, he liderado proyectos que implican la evaluación de propuestas comerciales y reporting financiero, lo que incluye aspectos de pricing y efectividad promocional. Estoy preparado para aplicar mis habilidades en la construcción de modelos analíticos en este ámbito.",
+      "source": "llm"
+    }
+  ],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": true
+}

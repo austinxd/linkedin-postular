@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-05-06T02:55:52",
+  "date": "2026-05-06",
+  "source": "linkedin",
+  "source_job_id": "4408266546",
+  "destination": "pandape",
+  "title": "Jefe de Proyecto TI / Sector financiero",
+  "company": "Valtx Perú",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4408266546&keywords=jefe%20de%20finanzas&location=Lima%2C%20Peru&sortBy=DD",
+  "dest_url": "https://valtx.pandape.computrabajo.com/Detail/12410222?ov=19&utm_source=linkedinjobboard&utm_medium=referral&utm_campaign=feed&utm_term=organic&utm_content=ats",
+  "status": "applied",
+  "killer_questions": [
+    {
+      "question": "Indicar nivel de estudios superiores y carrera",
+      "answer": "MBA en Administración de Empresas por la Universidad Internacional de La Rioja (UNIR), finalizado en 2023. Además, tengo un título universitario en Administración de la Universidad de Lima, obtenido en 2014, donde me gradué en Quinto Superior.",
+      "source": "llm"
+    },
+    {
+      "question": "Indicar tiempo de experiencia gestionando proyectos tecnológicos (de inicio a fin) en entidades financieras o entornos similares.",
+      "answer": "Tengo 13 años de experiencia en dirección financiera y comercial, donde he liderado proyectos tecnológicos en la optimización y automatización de procesos utilizando SQL y Power BI. Durante mi tiempo en Grupo Inhouse - Kallpa, gestioné un equipo en un entorno financiero, optimizando procesos y logrando ahorros significativos. Mi experiencia incluye la evaluación de propuestas crediticias y la gestión de operaciones en entidades financieras, lo que me ha permitido desarrollar habilidades clave en la gestión de proyectos tecnológicos.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Cuentas con experiencia en gestión de presupuestos, riesgos y recursos en proyectos tecnológicos?",
+      "answer": "Mi experiencia en gestión de presupuestos y recursos se ha desarrollado principalmente en el ámbito financiero y comercial, donde he liderado equipos y optimizado procesos. En mi rol como Coordinador General de Proyecto en Grupo Inhouse - Kallpa, gestioné un presupuesto de USD 8M anuales, lo que incluyó la evaluación de propuestas crediticias y la optimización de procesos. Además, tengo experiencia en la dirección de tesorería y contabilidad, lo que me ha permitido manejar riesgos asociados a las inversiones y proyectos.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Cuentas con formación complementaria en Gestión de Proyectos TI y metodologías ágiles y/o cascada? Detallar",
+      "answer": "No cuento con formación específica en Gestión de Proyectos TI ni en metodologías ágiles o cascada. Mi experiencia se ha centrado en dirección financiera y comercial, donde he liderado equipos y optimizado procesos en diferentes sectores. Sin embargo, estoy abierto a aprender y adaptarme a nuevas metodologías que puedan ser relevantes para el puesto. Con gusto puedo detallar este punto en una entrevista.",
+      "source": "llm"
+    },
+    {
+      "question": "Indicar disponibilidad para incorporación",
+      "answer": "Inmediata.",
+      "source": "llm"
+    },
+    {
+      "question": "Indicar expectativa salarial",
+      "answer": "Mi expectativa salarial es de entre 12,000 y 18,000 PEN mensuales, en un contrato indefinido.",
+      "source": "llm"
+    }
+  ],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": true
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-05-07T02:43:45",
+  "date": "2026-05-07",
+  "source": "linkedin",
+  "source_job_id": "4405673396",
+  "destination": "pandape",
+  "title": "Ejecutiva de Presupuesto Hospitalario",
+  "company": "Grupo San Pablo",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4405673396&keywords=Jefe%20de%20Finanzas&location=Lima%2C%20Peru&sortBy=DD",
+  "dest_url": "https://grupo-san-pablo.pandape.computrabajo.com/Detail/12362019?ov=19&utm_source=linkedinjobboard&utm_medium=referral&utm_campaign=feed&utm_term=organic&utm_content=ats",
+  "status": "applied",
+  "killer_questions": [
+    {
+      "question": "Brindame tu numero de Whatsaap actualizado",
+      "answer": "Con gusto puedo detallar este punto en una entrevista.",
+      "source": "llm"
+    },
+    {
+      "question": "¿En que distrito resides?/ Tienes disponibilidad de movilizarte a Surco?",
+      "answer": "Resido en San Isidro, Lima, Perú. Tengo disponibilidad para movilizarme a Surco.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Cuantas son tus pretensiones salariales?",
+      "answer": "Mis pretensiones salariales son entre 12,000 y 18,000 PEN mensuales, brutos.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Tienes experiencia como ejecutiva de presupuesto hospitalario?",
+      "answer": "Con gusto puedo detallar este punto en una entrevista.",
+      "source": "llm"
+    },
+    {
+      "question": "Tienes estudios técnicos y/o universitarios culminados o en curso?",
+      "answer": "Cuento con un MBA en Administración de Empresas por la Universidad Internacional de La Rioja (UNIR), que finalizaré en diciembre de 2023, y un título universitario en Administración de la Universidad de Lima, donde me gradué en junio de 2014 con Quinto Superior.",
+      "source": "llm"
+    }
+  ],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": true
+}

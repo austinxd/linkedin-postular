@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-05-07T02:54:32",
+  "date": "2026-05-07",
+  "source": "linkedin",
+  "source_job_id": "4402600290",
+  "destination": "manual:jobs.iadb.org",
+  "title": "IDB Invest - Development Impact Director - Real Sector Operations",
+  "company": "BID Invest",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4402600290&keywords=Jefe%20de%20Finanzas&location=Lima%2C%20Peru&sortBy=DD&start=25",
+  "dest_url": "https://jobs.iadb.org/job/Buenos-Aires-IDB-Invest-Development-Impact-Director-Real-Sector-Operations/2757-en_US/?feedId=437600&utm_source=LinkedInJobPostings",
+  "status": "skipped",
+  "killer_questions": [],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": false
+}

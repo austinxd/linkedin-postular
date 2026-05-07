@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-05-06T02:51:23",
+  "date": "2026-05-06",
+  "source": "linkedin",
+  "source_job_id": "4408777854",
+  "destination": "pandape",
+  "title": "Jefe de Créditos y Cobranzas Ate",
+  "company": "IQFARMA",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4408777854&keywords=jefe%20de%20finanzas&location=Lima%2C%20Peru&sortBy=DD",
+  "dest_url": "https://iq-farma.pandape.computrabajo.com/Detail/12418782?ov=19&utm_source=linkedinjobboard&utm_medium=referral&utm_campaign=feed&utm_term=organic&utm_content=ats",
+  "status": "applied",
+  "killer_questions": [
+    {
+      "question": "Indicar carrera y grado actual",
+      "answer": "MBA en Administración de Empresas por la Universidad Internacional de La Rioja (UNIR), finalizado en 2023. También tengo un título universitario en Administración de la Universidad de Lima, donde me gradué en 2014 con el reconocimiento de Quinto Superior.",
+      "source": "llm"
+    },
+    {
+      "question": "Comentanos tu nivel de dominio de Excel, Power BI y otras herramientas afines.",
+      "answer": "Tengo un dominio avanzado de Excel, así como de Power BI, donde utilizo estas herramientas para la optimización y automatización de procesos. Además, manejo SQL y DAX, lo que complementa mi capacidad para realizar análisis financieros y reporting. Estas habilidades me han permitido mejorar la eficiencia en la gestión de datos y la toma de decisiones en mis roles anteriores.",
+      "source": "llm"
+    },
+    {
+      "question": "Comentanos brevemente tu experiencia liderando áreas de créditos y cobranzas.",
+      "answer": "No tengo experiencia específica liderando áreas de créditos y cobranzas. Sin embargo, he trabajado en roles de dirección financiera donde he gestionado propuestas crediticias con entidades bancarias y he optimizado procesos financieros. Mi experiencia incluye la coordinación de tesorería y finanzas en diversas empresas, lo que me ha permitido desarrollar habilidades en la gestión de recursos y la toma de decisiones financieras estratégicas.",
+      "source": "llm"
+    },
+    {
+      "question": "Comentanos tu número de celular y correo vigentes.",
+      "answer": "999211682 +51 AbadB.Alex@gmail.com",
+      "source": "llm"
+    },
+    {
+      "question": "¿Cuál es tu pretensión salarial?",
+      "answer": "Mi pretensión salarial es de entre 12,000 y 18,000 PEN mensuales, bruto.",
+      "source": "llm"
+    }
+  ],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": true
+}

@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-05-07T02:38:10",
+  "date": "2026-05-07",
+  "source": "linkedin",
+  "source_job_id": "4405983748",
+  "destination": "manual:revolut.com",
+  "title": "Head of Lending",
+  "company": "Revolut",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4405983748&keywords=Jefe%20de%20Finanzas&location=Lima%2C%20Peru&sortBy=DD",
+  "dest_url": "https://www.revolut.com/careers/position/cf869bcd-e9d0-4867-b99e-b775a6ff33bb/",
+  "status": "skipped",
+  "killer_questions": [],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": false
+}

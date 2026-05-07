@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Panel — Postulaciones</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    margin: 0; padding: 24px; background: #f4f6f8; color: #1d2530;
+  }
+  h1 { margin: 0 0 24px; font-size: 22px; }
+  .stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 24px; }
+  .card {
+    background: #fff; border-radius: 8px; padding: 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  .card .num { font-size: 28px; font-weight: 700; color: #2563eb; }
+  .card .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #64748b; }
+  .filters { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+  .filter {
+    background: #fff; border: 1px solid #cbd5e1; border-radius: 6px;
+    padding: 6px 10px; font-size: 13px; cursor: pointer;
+  }
+  .filter.active { background: #2563eb; color: #fff; border-color: #2563eb; }
+  table { width: 100%; background: #fff; border-radius: 8px; overflow: hidden; border-collapse: collapse; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  th, td { padding: 12px; text-align: left; font-size: 13px; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
+  th { background: #f8fafc; font-weight: 600; color: #475569; text-transform: uppercase; font-size: 11px; letter-spacing: 0.05em; }
+  tr:last-child td { border-bottom: none; }
+  tr.row { cursor: pointer; }
+  tr.row:hover { background: #f8fafc; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; text-transform: uppercase; }
+  .badge.applied { background: #dcfce7; color: #166534; }
+  .badge.skipped { background: #f1f5f9; color: #475569; }
+  .badge.failed  { background: #fee2e2; color: #991b1b; }
+  .destination { font-family: monospace; font-size: 11px; color: #475569; }
+  .pending-email { color: #b45309; font-size: 11px; }
+  .detail-row td { background: #f8fafc; padding: 16px 24px; }
+  .detail-row .qa { background: #fff; padding: 12px; border-radius: 6px; margin-bottom: 8px; border-left: 3px solid #2563eb; }
+  .detail-row .qa .q { font-weight: 600; color: #1d2530; margin-bottom: 4px; font-size: 13px; }
+  .detail-row .qa .a { color: #475569; font-size: 13px; white-space: pre-wrap; }
+  .detail-row .qa .src { font-size: 10px; color: #94a3b8; text-transform: uppercase; margin-top: 4px; }
+  .empty { text-align: center; padding: 60px; color: #94a3b8; }
+  a { color: #2563eb; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .ts { font-family: monospace; font-size: 11px; color: #64748b; }
+  .meta { font-size: 11px; color: #94a3b8; margin-top: 4px; }
+</style>
+</head>
+<body>
+<h1>Panel de postulaciones <span style="color:#94a3b8;font-weight:400;font-size:13px;">(generado 2026-05-06 03:22:56)</span></h1>
+
+<div class="stats">
+  <div class="card"><div class="num">9</div><div class="label">Total</div></div>
+  <div class="card"><div class="num">7</div><div class="label">Aplicadas</div></div>
+  <div class="card"><div class="num">2</div><div class="label">Saltadas</div></div>
+  <div class="card"><div class="num">7</div><div class="label">Hoy</div></div>
+  <div class="card"><div class="num">6</div><div class="label">Pendientes email</div></div>
+</div>
+
+<div class="filters">
+  <button class="filter active" data-filter="all">Todos</button>
+  <button class="filter" data-filter="applied">Aplicadas</button>
+  <button class="filter" data-filter="skipped">Saltadas</button>
+  <button class="filter" data-filter="pandape">pandape (7)</button>
+  <button class="filter" data-filter="unknown">unknown (1)</button>
+  <button class="filter" data-filter="manual:cgiar.zohorecruit.com">manual:cgiar.zohorecruit.com (1)</button>
+</div>
+
+<table id="apps">
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Puesto / Empresa</th>
+      <th>Destino</th>
+      <th>Estado</th>
+      <th>Q&amp;A</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr class="row" data-status="skipped" data-destination="unknown">
+      <td class="ts">2026-05-06 03:08</td>
+      <td>
+        <div><strong>Country Manager Peru | Operations Positions</strong></div>
+        <div class="meta">EBANX</div>
+      </td>
+      <td><span class="destination">unknown</span></td>
+      <td><span class="badge skipped">skipped</span></td>
+      <td>—</td>
+    </tr>
+    <tr class="detail-row" data-expanded="0" style="display:none;">
+      <td colspan="5"><div class="meta">Origen: <a href="https://www.linkedin.com/jobs/search/?currentJobId=4394976488&amp;keywords=jefe%20de%20finanzas&amp;location=Lima%2C%20Peru&amp;sortBy=DD" target="_blank">https://www.linkedin.com/jobs/search/?currentJobId=4394976488&amp;keywords=jefe%</a></div></td>
+    </tr>
+    
+    <tr class="row" data-status="applied" data-destination="pandape">
+      <td class="ts">2026-05-06 02:55</td>
+      <td>
+        <div><strong>Jefe de Proyecto TI / Sector financiero</strong></div>
+        <div class="meta">Valtx Perú <span class="pending-email">📩 confirmar email</span></div>
+      </td>
+      <td><span class="destination">pandape</span></td>
+      <td><span class="badge applied">applied</span></td>
+      <td>6 preguntas</td>
+    </tr>
+    <tr class="detail-row" data-expanded="0" style="display:none;">
+      <td colspan="5"><div class="meta">Origen: <a href="https://www.linkedin.com/jobs/search/?currentJobId=4408266546&amp;keywords=jefe%20de%20finanzas&amp;location=Lima%2C%20Peru&amp;sortBy=DD" target="_blank">https://www.linkedin.com/jobs/search/?currentJobId=4408266546&amp;keywords=jefe%</a></div><div class="meta">Destino: <a href="https://valtx.pandape.computrabajo.com/Detail/12410222?ov=19&amp;utm_source=linkedinjobboard&amp;utm_medium=referral&amp;utm_campaign=feed&amp;utm_term=organic&amp;utm_content=ats" target="_blank">https://valtx.pandape.computrabajo.com/Detail/12410222?ov=19&amp;utm_source=link</a></div><div style='margin-top:12px;font-weight:600;font-size:13px;'>Killer Questions</div><div class="qa"><div class="q">Indicar nivel de estudios superiores y carrera</div><div class="a">MBA en Administración de Empresas por la Universidad Internacional de La Rioja (UNIR), finalizado en 2023. Además, tengo un título universitario en Administración de la Universidad de Lima, obtenido en 2014, donde me gradué en Quinto Superior.</div><div class="src">llm</div></div><div class="qa"><div class="q">Indicar tiempo de experiencia gestionando proyectos tecnológicos (de inicio a fin) en entidades financieras o entornos similares.</div><div class="a">Tengo 13 años de experiencia en dirección financiera y comercial, donde he liderado proyectos tecnológicos en la optimización y automatización de procesos utilizando SQL y Power BI. Durante mi tiempo en Grupo Inhouse - Kallpa, gestioné un equipo en un entorno financiero, optimizando procesos y logrando ahorros significativos. Mi experiencia incluye la evaluación de propuestas crediticias y la gestión de operaciones en entidades financieras, lo que me ha permitido desarrollar habilidades clave en la gestión de proyectos tecnológicos.</div><div class="src">llm</div></div><div class="qa"><div class="q">¿Cuentas con experiencia en gestión de presupuestos, riesgos y recursos en proyectos tecnológicos?</div><div class="a">Mi experiencia en gestión de presupuestos y recursos se ha desarrollado principalmente en el ámbito financiero y comercial, donde he liderado equipos y optimizado procesos. En mi rol como Coordinador General de Proyecto en Grupo Inhouse - Kallpa, gestioné un presupuesto de USD 8M anuales, lo que incluyó la evaluación de propuestas crediticias y la optimización de procesos. Además, tengo experiencia en la dirección de tesorería y contabilidad, lo que me ha permitido manejar riesgos asociados a las inversiones y proyectos.</div><div class="src">llm</div></div><div class="qa"><div class="q">¿Cuentas con formación complementaria en Gestión de Proyectos TI y metodologías ágiles y/o cascada? Detallar</div><div class="a">No cuento con formación específica en Gestión de Proyectos TI ni en metodologías ágiles o cascada. Mi experiencia se ha centrado en dirección financiera y comercial, donde he liderado equipos y optimizado procesos en diferentes sectores. Sin embargo, estoy abierto a aprender y adaptarme a nuevas metodologías que puedan ser relevantes para el puesto. Con gusto puedo detallar este punto en una entrevista.</div><div class="src">llm</div></div><div class="qa"><div class="q">Indicar disponibilidad para incorporación</div><div class="a">Inmediata.</div><div class="src">llm</div></div><div class="qa"><div class="q">Indicar expectativa salarial</div><div class="a">Mi expectativa salarial es de entre 12,000 y 18,000 PEN mensuales, en un contrato indefinido.</div><div class="src">llm</div></div></td>
+    </tr>
+    
+    <tr class="row" data-status="applied" data-destination="pandape">
+      <td class="ts">2026-05-06 02:54</td>
+      <td>
+        <div><strong>Administrador C/Exp 5 años</strong></div>
+        <div class="meta">Biotech <span class="pending-email">📩 confirmar email</span></div>
+      </td>
+      <td><span class="destination">pandape</span></td>
+      <td><span class="badge applied">applied</span></td>
+      <td>11 preguntas</td>
+    </tr>
+    <tr class="detail-row" data-expanded="0" style="display:none;">
+      <td colspan="5"><div class="meta">Origen: <a href="https://www.linkedin.com/jobs/search/?currentJobId=4408269450&amp;keywords=jefe%20de%20finanzas&amp;location=Lima%2C%20Peru&amp;sortBy=DD" target="_blank">https://www.linkedin.com/jobs/search/?currentJobId=4408269450&amp;keywords=jefe%</a></div><div class="meta">Destino: <a href="https://biotech-corp-sac.pandape.computrabajo.com/Detail/12406683?ov=19&amp;utm_source=linkedinjobboard&amp;utm_medium=referral&amp;utm_campaign=feed&amp;utm_term=organic&amp;utm_content=ats" target="_blank">https://biotech-corp-sac.pandape.computrabajo.com/Detail/12406683?ov=19&amp;utm_</a></div><div style='margin-top:12px;font-weight:600;font-size:13px;'>Killer Questions</div><div class="qa"><div class="q">Mencione su formación profesional, grado académico y universidad.</div><div class="a">Cuento con un MBA en Administración de Empresas por la Universidad Internacional de La Rioja (UNIR), que finalicé en 2023. Además, tengo un grado universitario en Administración por la Universidad de Lima, donde me gradué en 2014 con el reconocimiento de Quinto Superior.</div><div class="src">llm</div></div><div class="qa"><div class="q">¿Cuenta con experiencia administrando plantas de producción del sector agroindustrial o industrial? Detalle Empresa y numero de personal</div><div class="a">Con gusto puedo detallar este punto en una entrevista.</div><div class="src">llm</div></div><div class="qa"><div class="q">¿Cuenta con estudios de Maestría o MBA? Detalle especialidad, institución y estado (culminado o en curso).</div><div class="a">Cuento con un MBA en Administración de Empresas por la Universidad Internacional de La Rioja (UNIR), el cual está en curso y se prevé culminar en diciembre de 2023.</div><div class="src">llm</div></div><div class="qa"><div class="q">¿Cuenta con Maestría o MBA? Detalle.</div><div class="a">Cuento con un MBA en Administración de Empresas por la Universidad Internacional de La Rioja (UNIR), que finalicé en diciembre de 2023. Este programa me ha proporcionado una sólida formación en dirección financiera y comercial, complementando mis más de 15 años de experiencia en el sector.</div><div class="src">llm</div></div><div class="qa"><div class="q">Comente una mejora o iniciativa que haya implementado en procesos administrativos.</div><div class="a">Implementé la optimización de procesos utilizando SQL y Power BI en mi rol como Coordinador General de Proyecto en Grupo Inhouse - Kallpa. Esto permitió una gestión más eficiente de operaciones anuales de USD 8M, lo que resultó en ahorros tributarios superiores a USD 200K y una mejora significativa en la toma de decisiones financieras.</div><div class="src">llm</div></div><div class="qa"><div class="q">¿Qué experiencia tiene en manejo de presupuestos, compras o control documentario?</div><div class="a">Tengo más de 15 años de experiencia en dirección financiera, donde he manejado presupuestos significativos en diversas empresas. En mi rol como Coordinador General de Proyecto en Grupo Inhouse - Kallpa, lideré la operación de USD 8M anuales, optimizando procesos y gestionando propuestas crediticias. Además, en mi posición actual como Gerente General en Grupo Bros, estoy a cargo de la dirección de tesorería y contabilidad, lo que incluye el control de presupuestos y compras.</div><div class="src">llm</div></div><div class="qa"><div class="q">¿Tiene experiencia trabajando con equipos comerciales o áreas comerciales?</div><div class="a">SI</div><div class="src">llm</div></div><div class="qa"><div class="q">Nivel de Excel avanzado</div><div class="a">SI</div><div class="src">llm</div></div><div class="qa"><div class="q">¿Ha implementado KPIs de gestión para equipos o áreas de la empresa?</div><div class="a">Ha liderado su implementación</div><div class="src">llm</div></div><div class="qa"><div class="q">Nivel Power BI.</div><div class="a">Avanzado</div><div class="src">llm</div></div><div class="qa"><div class="q">Indique su pretensión salarial y detalle su situación laboral actual.</div><div class="a">Mi pretensión salarial se encuentra entre 12,000 y 18,000 PEN mensuales y brutos. Actualmente, ocupo el cargo de Gerente General en Grupo Bros, donde he liderado un incremento significativo en la facturación anual. Estoy disponible para una incorporación inmediata.</div><div class="src">llm</div></div></td>
+    </tr>
+    
+    <tr class="row" data-status="applied" data-destination="pandape">
+      <td class="ts">2026-05-06 02:52</td>
+      <td>
+        <div><strong>Jefe de Administración y Finanzas</strong></div>
+        <div class="meta">Manguifajas Industriales <span class="pending-email">📩 confirmar email</span></div>
+      </td>
+      <td><span class="destination">pandape</span></td>
+      <td><span class="badge applied">applied</span></td>
+      <td>4 preguntas</td>
+    </tr>
+    <tr class="detail-row" data-expanded="0" style="display:none;">
+      <td colspan="5"><div class="meta">Origen: <a href="https://www.linkedin.com/jobs/search/?currentJobId=4409000062&amp;keywords=jefe%20de%20finanzas&amp;location=Lima%2C%20Peru&amp;sortBy=DD" target="_blank">https://www.linkedin.com/jobs/search/?currentJobId=4409000062&amp;keywords=jefe%</a></div><div class="meta">Destino: <a href="https://manguifajas-industriales.pandape.computrabajo.com/Detail/12419457?ov=19&amp;utm_source=linkedinjobboard&amp;utm_medium=referral&amp;utm_campaign=feed&amp;utm_term=organic&amp;utm_content=ats" target="_blank">https://manguifajas-industriales.pandape.computrabajo.com/Detail/12419457?ov=19&</a></div><div style='margin-top:12px;font-weight:600;font-size:13px;'>Killer Questions</div><div class="qa"><div class="q">cuales son tus pretensiones salariales</div><div class="a">Mis pretensiones salariales son de entre 12,000 y 18,000 PEN mensuales, bruto.</div><div class="src">llm</div></div><div class="qa"><div class="q">¿Tienes experiencia en la gestión financiera y administrativa?</div><div class="a">Sí</div><div class="src">llm</div></div><div class="qa"><div class="q">¿Cuál es tu formación académica finalizada?</div><div class="a">Maestría</div><div class="src">llm</div></div><div class="qa"><div class="q">¿Tienes experiencia liderando equipos de trabajo?</div><div class="a">Sí</div><div class="src">llm</div></div></td>
+    </tr>
+    
+    <tr class="row" data-status="applied" data-destination="pandape">
+      <td class="ts">2026-05-06 02:51</td>
+      <td>
+        <div><strong>Jefe de Créditos y Cobranzas Ate</strong></div>
+        <div class="meta">IQFARMA <span class="pending-email">📩 confirmar email</span></div>
+      </td>
+      <td><span class="destination">pandape</span></td>
+      <td><span class="badge applied">applied</span></td>
+      <td>5 preguntas</td>
+    </tr>
+    <tr class="detail-row" data-expanded="0" style="display:none;">
+      <td colspan="5"><div class="meta">Origen: <a href="https://www.linkedin.com/jobs/search/?currentJobId=4408777854&amp;keywords=jefe%20de%20finanzas&amp;location=Lima%2C%20Peru&amp;sortBy=DD" target="_blank">https://www.linkedin.com/jobs/search/?currentJobId=4408777854&amp;keywords=jefe%</a></div><div class="meta">Destino: <a href="https://iq-farma.pandape.computrabajo.com/Detail/12418782?ov=19&amp;utm_source=linkedinjobboard&amp;utm_medium=referral&amp;utm_campaign=feed&amp;utm_term=organic&amp;utm_content=ats" target="_blank">https://iq-farma.pandape.computrabajo.com/Detail/12418782?ov=19&amp;utm_source=l</a></div><div style='margin-top:12px;font-weight:600;font-size:13px;'>Killer Questions</div><div class="qa"><div class="q">Indicar carrera y grado actual</div><div class="a">MBA en Administración de Empresas por la Universidad Internacional de La Rioja (UNIR), finalizado en 2023. También tengo un título universitario en Administración de la Universidad de Lima, donde me gradué en 2014 con el reconocimiento de Quinto Superior.</div><div class="src">llm</div></div><div class="qa"><div class="q">Comentanos tu nivel de dominio de Excel, Power BI y otras herramientas afines.</div><div class="a">Tengo un dominio avanzado de Excel, así como de Power BI, donde utilizo estas herramientas para la optimización y automatización de procesos. Además, manejo SQL y DAX, lo que complementa mi capacidad para realizar análisis financieros y reporting. Estas habilidades me han permitido mejorar la eficiencia en la gestión de datos y la toma de decisiones en mis roles anteriores.</div><div class="src">llm</div></div><div class="qa"><div class="q">Comentanos brevemente tu experiencia liderando áreas de créditos y cobranzas.</div><div class="a">No tengo experiencia específica liderando áreas de créditos y cobranzas. Sin embargo, he trabajado en roles de dirección financiera donde he gestionado propuestas crediticias con entidades bancarias y he optimizado procesos financieros. Mi experiencia incluye la coordinación de tesorería y finanzas en diversas empresas, lo que me ha permitido desarrollar habilidades en la gestión de recursos y la toma de decisiones financieras estratégicas.</div><div class="src">llm</div></div><div class="qa"><div class="q">Comentanos tu número de celular y correo vigentes.</div><div class="a">999211682 +51 AbadB.Alex@gmail.com</div><div class="src">llm</div></div><div class="qa"><div class="q">¿Cuál es tu pretensión salarial?</div><div class="a">Mi pretensión salarial es de entre 12,000 y 18,000 PEN mensuales, bruto.</div><div class="src">llm</div></div></td>
+    </tr>
+    
+    <tr class="row" data-status="applied" data-destination="pandape">
+      <td class="ts">2026-05-06 02:49</td>
+      <td>
+        <div><strong>Jefe de Contabilidad y Planeamiento Financiero</strong></div>
+        <div class="meta">Carrillo Royalty <span class="pending-email">📩 confirmar email</span></div>
+      </td>
+      <td><span class="destination">pandape</span></td>
+      <td><span class="badge applied">applied</span></td>
+      <td>4 preguntas</td>
+    </tr>
+    <tr class="detail-row" data-expanded="0" style="display:none;">
+      <td colspan="5"><div class="meta">Origen: <a href="https://www.linkedin.com/jobs/search/?currentJobId=4409410008&amp;keywords=jefe%20de%20finanzas&amp;location=Lima%2C%20Peru&amp;sortBy=DD" target="_blank">https://www.linkedin.com/jobs/search/?currentJobId=4409410008&amp;keywords=jefe%</a></div><div class="meta">Destino: <a href="https://grupocarrilloroyalty.pandape.computrabajo.com/Detail/12432000?ov=19&amp;utm_source=linkedinjobboard&amp;utm_medium=referral&amp;utm_campaign=feed&amp;utm_term=organic&amp;utm_content=ats" target="_blank">https://grupocarrilloroyalty.pandape.computrabajo.com/Detail/12432000?ov=19&amp;</a></div><div style='margin-top:12px;font-weight:600;font-size:13px;'>Killer Questions</div><div class="qa"><div class="q">¿Eres Contador Público titulado, colegiado y actualmente habilitado?</div><div class="a">No</div><div class="src">llm</div></div><div class="qa"><div class="q">¿Cuántos años de experiencia tienes en contabilidad integral?</div><div class="a">Mas de 5 años</div><div class="src">llm</div></div><div class="qa"><div class="q">¿Cuál es tu expectativa salarial mensual?</div><div class="a">Mi expectativa salarial mensual se encuentra entre 12,000 y 18,000 PEN, en modalidad bruta.</div><div class="src">llm</div></div><div class="qa"><div class="q">¿Tienes disponibilidad para trabajar de manera presencial de lunes a sábado en San Isidro?</div><div class="a">Si</div><div class="src">llm</div></div></td>
+    </tr>
+    
+    <tr class="row" data-status="applied" data-destination="pandape">
+      <td class="ts">2026-05-06 02:46</td>
+      <td>
+        <div><strong>Oportunidad Laboral para trabajar en el Banco Scotiabank/ Ejecutivo Financiero</strong></div>
+        <div class="meta">SEF Perú Holding <span class="pending-email">📩 confirmar email</span></div>
+      </td>
+      <td><span class="destination">pandape</span></td>
+      <td><span class="badge applied">applied</span></td>
+      <td>—</td>
+    </tr>
+    <tr class="detail-row" data-expanded="0" style="display:none;">
+      <td colspan="5"><div class="meta">Origen: <a href="https://www.linkedin.com/jobs/search/?currentJobId=4409879124&amp;keywords=jefe%20de%20finanzas&amp;location=Lima%2C%20Peru&amp;sortBy=DD" target="_blank">https://www.linkedin.com/jobs/search/?currentJobId=4409879124&amp;keywords=jefe%</a></div><div class="meta">Destino: <a href="https://sef-peru-holding.pandape.computrabajo.com/Detail/12435960?ov=19&amp;utm_source=linkedinjobboard&amp;utm_medium=referral&amp;utm_campaign=feed&amp;utm_term=organic&amp;utm_content=ats" target="_blank">https://sef-peru-holding.pandape.computrabajo.com/Detail/12435960?ov=19&amp;utm_</a></div></td>
+    </tr>
+    
+    <tr class="row" data-status="skipped" data-destination="manual:cgiar.zohorecruit.com">
+      <td class="ts">2026-05-06 02:31</td>
+      <td>
+        <div><strong>Financial Planning and Analyst Senior Manager ( N-26-12 )</strong></div>
+        <div class="meta">International Potato Center (CIP)</div>
+      </td>
+      <td><span class="destination">manual:cgiar.zohorecruit.com</span></td>
+      <td><span class="badge skipped">skipped</span></td>
+      <td>—</td>
+    </tr>
+    <tr class="detail-row" data-expanded="0" style="display:none;">
+      <td colspan="5"><div class="meta">Origen: <a href="https://www.linkedin.com/jobs/search/?currentJobId=4408378225&amp;keywords=jefe%20de%20finanzas&amp;location=Lima%2C%20Peru&amp;sortBy=DD" target="_blank">https://www.linkedin.com/jobs/search/?currentJobId=4408378225&amp;keywords=jefe%</a></div><div class="meta">Destino: <a href="https://cgiar.zohorecruit.com/jobs/CIP-Jobs/268451000031508150/Financial-Planning-and-Analyst-Senior-Manager-N-26-12-?source=CareerSite" target="_blank">https://cgiar.zohorecruit.com/jobs/CIP-Jobs/268451000031508150/Financial-Plannin</a></div></td>
+    </tr>
+    
+    <tr class="row" data-status="applied" data-destination="pandape">
+      <td class="ts">2026-05-06 02:30</td>
+      <td>
+        <div><strong>Jefe de Tesoreria/ San Isidro</strong></div>
+        <div class="meta">Nexxo Servicios Comerciales</div>
+      </td>
+      <td><span class="destination">pandape</span></td>
+      <td><span class="badge applied">applied</span></td>
+      <td>—</td>
+    </tr>
+    <tr class="detail-row" data-expanded="0" style="display:none;">
+      <td colspan="5"><div class="meta">Origen: <a href="https://www.linkedin.com/jobs/search/?currentJobId=4410588492&amp;keywords=jefe%20de%20finanzas&amp;location=Lima%2C%20Peru&amp;sortBy=DD" target="_blank">https://www.linkedin.com/jobs/search/?currentJobId=4410588492&amp;keywords=jefe%</a></div><div class="meta">Destino: <a href="https://nexxosc.pandape.computrabajo.com/Detail/12449176?ov=19&amp;utm_source=linkedinjobboard&amp;utm_medium=referral&amp;utm_campaign=feed&amp;utm_term=organic&amp;utm_content=ats" target="_blank">https://nexxosc.pandape.computrabajo.com/Detail/12449176?ov=19&amp;utm_source=li</a></div><div style='margin-top:12px;font-weight:600;font-size:13px;'>Notas</div><div class="qa">Ya postulado anteriormente (tras email)</div></td>
+    </tr>
+    
+  </tbody>
+</table>
+
+<script>
+const filters = document.querySelectorAll('.filter');
+filters.forEach(f => f.addEventListener('click', () => {{
+  filters.forEach(x => x.classList.remove('active'));
+  f.classList.add('active');
+  const v = f.dataset.filter;
+  document.querySelectorAll('tr.row').forEach(r => {{
+    if (v === 'all') r.style.display = '';
+    else if (v === 'applied' || v === 'skipped') r.style.display = (r.dataset.status === v) ? '' : 'none';
+    else r.style.display = (r.dataset.destination === v) ? '' : 'none';
+    // Hide expanded detail when row is hidden
+    const detail = r.nextElementSibling;
+    if (detail && detail.classList.contains('detail-row')) {{
+      detail.style.display = r.style.display === 'none' ? 'none' : detail.dataset.expanded === '1' ? '' : 'none';
+    }}
+  }});
+}}));
+
+document.querySelectorAll('tr.row').forEach(r => {{
+  r.addEventListener('click', () => {{
+    const detail = r.nextElementSibling;
+    if (!detail || !detail.classList.contains('detail-row')) return;
+    const isOpen = detail.dataset.expanded === '1';
+    detail.dataset.expanded = isOpen ? '0' : '1';
+    detail.style.display = isOpen ? 'none' : '';
+  }});
+}});
+</script>
+</body>
+</html>

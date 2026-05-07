@@ -1,0 +1,15 @@
+linkedin:
+  daily_limit: 25
+  searches:
+    - keywords: "Gerente General"
+      location: "Lima, Peru"
+    - keywords: "Director Financiero"
+      location: "Lima, Peru"
+    - keywords: "Gerente de Finanzas"
+      location: "Lima, Peru"
+    - keywords: "CFO"
+      location: "Peru"
+    - keywords: "Gerente de Administracion y Finanzas"
+      location: "Lima, Peru"
+    - keywords: "Financial Planning Manager"
+      location: "Peru"

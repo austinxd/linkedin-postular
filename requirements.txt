@@ -1,0 +1,8 @@
+playwright>=1.40
+PyYAML>=6.0
+python-dotenv>=1.0
+tf-playwright-stealth>=1.2  # parches anti-detección para Cloudflare Turnstile, etc.
+certifi>=2024.0  # CA bundle para HTTPS (Capsolver, etc.)
+# LLM clients (instalá solo el que vayas a usar)
+# openai>=1.0       # para ChatGPT (gpt-4o-mini)
+# anthropic>=0.40   # para Claude (Haiku 4.5)

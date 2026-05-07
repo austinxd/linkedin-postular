@@ -1,0 +1,425 @@
+
+DevTools listening on ws://127.0.0.1:9222/devtools/browser/5b3529d3-5c0f-4d6f-84b3-f4e138beae0d
+Created TensorFlow Lite XNNPACK delegate for CPU.
+Trying to load the allocator multiple times. This is *not* supported.
+[18828:9908482:0507/012520.124845:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[18904:9909231:0507/012536.572206:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[18904:9909231:0507/012536.572376:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 482318, parent pid: 18828
+[18904:9909231:0507/012536.574526:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[18906:9909235:0507/012536.582099:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=149.0.7814.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[18906:9909235:0507/012536.582251:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 482318, parent pid: 1
+[18906:9909235:0507/012536.584126:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[18904:9909231:0507/012536.584563:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[18904:9909231:0507/012536.585154:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[18904:9909231:0507/012536.585221:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[18904:9909231:0507/012536.585280:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[18904:9909231:0507/012536.585290:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/AndroidStudio2025.2.1/Crashpad/settings.dat: No such file or directory (2)
+[18904:9909231:0507/012536.585298:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[18904:9909231:0507/012536.585344:VERBOSE1:chrome/updater/updater.cc:103] Crash reporting initialized.
+[18904:9909243:0507/012536.585606:VERBOSE1:chrome/updater/app/app_wakeall.cc:58] Launching `/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[18907:9909247:0507/012536.591530:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[18907:9909247:0507/012536.591668:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 482318, parent pid: 18904
+[18907:9909247:0507/012536.593257:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[18909:9909251:0507/012536.599674:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=149.0.7814.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[18909:9909251:0507/012536.599828:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 482318, parent pid: 1
+[18909:9909251:0507/012536.601254:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[18907:9909247:0507/012536.601599:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[18907:9909247:0507/012536.602092:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[18907:9909247:0507/012536.602146:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[18907:9909247:0507/012536.602199:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[18907:9909247:0507/012536.602207:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/AndroidStudio2025.2.1/Crashpad/settings.dat: No such file or directory (2)
+[18907:9909247:0507/012536.602214:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[18907:9909247:0507/012536.602255:VERBOSE1:chrome/updater/updater.cc:103] Crash reporting initialized.
+[18907:9909247:0507/012536.602393:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:61] Run
+[18828:9908482:0507/012544.468452:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[18907:9909247:0507/012552.523013:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[18907:9909247:0507/012552.523741:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[18907:9909247:0507/012552.523774:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--wake) returned 0.
+[18904:9909243:0507/012552.572674:VERBOSE1:chrome/updater/app/app_wakeall.cc:68] `/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[18904:9909231:0507/012552.572883:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[18904:9909231:0507/012552.573513:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[18904:9909231:0507/012552.573545:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--wake-all) returned 0.
+[18828:9908498:0507/012557.142498:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[18828:9908498:0507/012557.142537:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[18909:9909251:0507/012602.538915:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[18909:9909251:0507/012602.538955:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--crash-handler) returned 0.
+[18906:9909235:0507/012602.540810:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[18906:9909235:0507/012602.540831:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--crash-handler) returned 0.
+[18828:9908482:0507/012630.208547:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[18828:9908482:0507/012808.441140:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[18828:9908498:0507/012912.716703:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[18828:9908498:0507/012912.716740:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[18828:9908498:0507/013037.413199:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[18828:9908498:0507/013037.413273:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[18828:9908498:0507/013041.323513:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[18828:9908498:0507/013041.323598:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[18828:9908482:0507/013055.405723:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+DevTools listening on ws://127.0.0.1:9222/devtools/browser/ddebdef4-e688-4da0-b8a7-26a39a9bc8bb
+Created TensorFlow Lite XNNPACK delegate for CPU.
+Trying to load the allocator multiple times. This is *not* supported.
+[19664:9918088:0507/013158.721949:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[19729:9918829:0507/013215.175294:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[19729:9918829:0507/013215.175439:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 482717, parent pid: 19664
+[19729:9918829:0507/013215.177214:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[19731:9918833:0507/013215.183288:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=149.0.7814.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[19731:9918833:0507/013215.183431:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 482717, parent pid: 1
+[19731:9918833:0507/013215.184838:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[19729:9918829:0507/013215.185174:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[19729:9918829:0507/013215.185668:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[19729:9918829:0507/013215.185724:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[19729:9918829:0507/013215.185779:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[19729:9918829:0507/013215.185787:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/AndroidStudio2025.2.1/Crashpad/settings.dat: No such file or directory (2)
+[19729:9918829:0507/013215.185794:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[19729:9918829:0507/013215.185833:VERBOSE1:chrome/updater/updater.cc:103] Crash reporting initialized.
+[19729:9918841:0507/013215.186056:VERBOSE1:chrome/updater/app/app_wakeall.cc:58] Launching `/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[19732:9918845:0507/013215.191604:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[19732:9918845:0507/013215.191722:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 482717, parent pid: 19729
+[19732:9918845:0507/013215.193242:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[19734:9918849:0507/013215.198946:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=149.0.7814.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[19734:9918849:0507/013215.199072:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 482717, parent pid: 1
+[19734:9918849:0507/013215.200369:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[19732:9918845:0507/013215.200685:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[19732:9918845:0507/013215.201128:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[19732:9918845:0507/013215.201174:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[19732:9918845:0507/013215.201220:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[19732:9918845:0507/013215.201227:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/AndroidStudio2025.2.1/Crashpad/settings.dat: No such file or directory (2)
+[19732:9918845:0507/013215.201232:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[19732:9918845:0507/013215.201270:VERBOSE1:chrome/updater/updater.cc:103] Crash reporting initialized.
+[19732:9918845:0507/013215.201401:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:61] Run
+[19664:9918112:0507/013223.738443:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[19664:9918112:0507/013223.738477:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[19664:9918088:0507/013224.862524:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[19732:9918845:0507/013231.864206:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[19732:9918845:0507/013231.864686:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[19732:9918845:0507/013231.864704:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--wake) returned 0.
+[19729:9918841:0507/013231.984440:VERBOSE1:chrome/updater/app/app_wakeall.cc:68] `/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[19729:9918829:0507/013231.984758:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[19729:9918829:0507/013231.985236:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[19729:9918829:0507/013231.985261:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--wake-all) returned 0.
+[19734:9918849:0507/013241.872102:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[19734:9918849:0507/013241.872116:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--crash-handler) returned 0.
+[19731:9918833:0507/013241.872983:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[19731:9918833:0507/013241.872995:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--crash-handler) returned 0.
+[19664:9918088:0507/013319.912379:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[19664:9918088:0507/013854.778146:ERROR:google_apis/gcm/engine/registration_request.cc:275] Registration URL fetching failed.
+[19664:9918088:0507/014220.455895:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[19664:9918088:0507/014748.173213:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[19664:9918112:0507/015737.352538:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[19664:9918112:0507/015737.352752:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[19664:9918112:0507/015742.824856:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[19664:9918112:0507/015742.824896:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[19664:9918112:0507/020132.758000:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[19664:9918112:0507/020132.758209:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[19664:9918112:0507/020136.533467:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[19664:9918112:0507/020136.533535:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+
+DevTools listening on ws://127.0.0.1:9222/devtools/browser/3cec5ee7-bb3e-442b-b803-251058fd2622
+Created TensorFlow Lite XNNPACK delegate for CPU.
+Trying to load the allocator multiple times. This is *not* supported.
+[23408:9960039:0507/020835.654762:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[23408:9960039:0507/020835.654999:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[23495:9961074:0507/020839.139671:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[23495:9961074:0507/020839.139839:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 484901, parent pid: 23408
+[23495:9961074:0507/020839.142964:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[23497:9961079:0507/020839.150006:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=149.0.7814.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[23497:9961079:0507/020839.150163:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 484901, parent pid: 1
+[23497:9961079:0507/020839.151687:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[23495:9961074:0507/020839.152034:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[23495:9961074:0507/020839.152560:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[23495:9961074:0507/020839.152612:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[23495:9961074:0507/020839.152663:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[23495:9961074:0507/020839.152672:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/AndroidStudio2025.2.1/Crashpad/settings.dat: No such file or directory (2)
+[23495:9961074:0507/020839.152678:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[23495:9961074:0507/020839.152717:VERBOSE1:chrome/updater/updater.cc:103] Crash reporting initialized.
+[23495:9961087:0507/020839.152950:VERBOSE1:chrome/updater/app/app_wakeall.cc:58] Launching `/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[23498:9961091:0507/020839.158432:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[23498:9961091:0507/020839.158569:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 484901, parent pid: 23495
+[23498:9961091:0507/020839.160021:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[23500:9961095:0507/020839.165821:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=149.0.7814.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[23500:9961095:0507/020839.165942:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 484901, parent pid: 1
+[23500:9961095:0507/020839.167268:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[23498:9961091:0507/020839.167575:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[23498:9961091:0507/020839.168019:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[23498:9961091:0507/020839.168066:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[23498:9961091:0507/020839.168116:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[23498:9961091:0507/020839.168123:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/AndroidStudio2025.2.1/Crashpad/settings.dat: No such file or directory (2)
+[23498:9961091:0507/020839.168129:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[23498:9961091:0507/020839.168161:VERBOSE1:chrome/updater/updater.cc:103] Crash reporting initialized.
+[23498:9961091:0507/020839.168291:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:61] Run
+[23408:9960021:0507/020841.687340:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[23498:9961091:0507/020855.872237:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[23498:9961091:0507/020855.875502:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[23498:9961091:0507/020855.875538:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--wake) returned 0.
+[23495:9961087:0507/020855.954366:VERBOSE1:chrome/updater/app/app_wakeall.cc:68] `/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[23495:9961074:0507/020855.954678:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[23495:9961074:0507/020855.955381:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[23495:9961074:0507/020855.955415:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--wake-all) returned 0.
+[23500:9961095:0507/020905.887942:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[23500:9961095:0507/020905.888177:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--crash-handler) returned 0.
+[23497:9961079:0507/020905.890052:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[23497:9961079:0507/020905.890074:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--crash-handler) returned 0.
+[23408:9960021:0507/020911.153211:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[23408:9960021:0507/020953.887275:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[23408:9960021:0507/021136.300699:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+DevTools listening on ws://127.0.0.1:9222/devtools/browser/df8d8a2c-668c-4c91-95a8-e6d26b90d677
+Created TensorFlow Lite XNNPACK delegate for CPU.
+Trying to load the allocator multiple times. This is *not* supported.
+[23905:9965707:0507/021224.963494:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[23905:9965723:0507/021240.761067:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[23905:9965723:0507/021240.761104:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[23981:9966777:0507/021241.062867:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[23981:9966777:0507/021241.063029:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 485143, parent pid: 23905
+[23981:9966777:0507/021241.064665:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[23983:9966781:0507/021241.070041:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=149.0.7814.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[23983:9966781:0507/021241.070184:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 485143, parent pid: 1
+[23983:9966781:0507/021241.071500:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[23981:9966777:0507/021241.071851:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[23981:9966777:0507/021241.072293:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[23981:9966777:0507/021241.072335:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[23981:9966777:0507/021241.072379:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[23981:9966777:0507/021241.072386:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/AndroidStudio2025.2.1/Crashpad/settings.dat: No such file or directory (2)
+[23981:9966777:0507/021241.072392:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[23981:9966777:0507/021241.072427:VERBOSE1:chrome/updater/updater.cc:103] Crash reporting initialized.
+[23981:9966789:0507/021241.072648:VERBOSE1:chrome/updater/app/app_wakeall.cc:58] Launching `/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[23984:9966793:0507/021241.077867:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[23984:9966793:0507/021241.077998:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 485143, parent pid: 23981
+[23984:9966793:0507/021241.079429:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[23986:9966797:0507/021241.084699:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=149.0.7814.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[23986:9966797:0507/021241.084812:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 485143, parent pid: 1
+[23986:9966797:0507/021241.086039:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[23984:9966793:0507/021241.086337:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[23984:9966793:0507/021241.086760:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[23984:9966793:0507/021241.086799:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[23984:9966793:0507/021241.086837:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[23984:9966793:0507/021241.086844:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/AndroidStudio2025.2.1/Crashpad/settings.dat: No such file or directory (2)
+[23984:9966793:0507/021241.086849:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[23984:9966793:0507/021241.086885:VERBOSE1:chrome/updater/updater.cc:103] Crash reporting initialized.
+[23984:9966793:0507/021241.087028:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:61] Run
+[23905:9965707:0507/021253.703938:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[23984:9966793:0507/021259.155676:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[23984:9966793:0507/021259.156552:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[23984:9966793:0507/021259.156605:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--wake) returned 0.
+[23981:9966789:0507/021259.178948:VERBOSE1:chrome/updater/app/app_wakeall.cc:68] `/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[23981:9966777:0507/021259.179726:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[23981:9966777:0507/021259.180283:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[23981:9966777:0507/021259.180319:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--wake-all) returned 0.
+[23986:9966797:0507/021309.170824:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[23986:9966797:0507/021309.170859:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--crash-handler) returned 0.
+[23983:9966781:0507/021309.172645:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[23983:9966781:0507/021309.173150:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--crash-handler) returned 0.
+[23905:9965707:0507/021349.711302:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[23905:9965707:0507/021544.377801:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[23905:9965723:0507/021924.661974:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[23905:9965723:0507/021924.662011:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[23905:9965723:0507/021928.893693:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[23905:9965723:0507/021928.893930:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[23905:9965707:0507/021930.298778:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+DevTools listening on ws://127.0.0.1:9222/devtools/browser/1f58a275-4a29-479e-a297-6a77f8bc9eba
+Created TensorFlow Lite XNNPACK delegate for CPU.
+Trying to load the allocator multiple times. This is *not* supported.
+[25238:9979887:0507/022453.631619:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[25238:9979905:0507/022507.088511:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[25238:9979905:0507/022507.088771:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[25333:9981033:0507/022510.000888:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[25333:9981033:0507/022510.001054:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 485892, parent pid: 25238
+[25333:9981033:0507/022510.002758:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[25335:9981037:0507/022510.008865:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=149.0.7814.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[25335:9981037:0507/022510.008997:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 485892, parent pid: 1
+[25335:9981037:0507/022510.010355:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[25333:9981033:0507/022510.010705:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[25333:9981033:0507/022510.011204:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[25333:9981033:0507/022510.011260:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[25333:9981033:0507/022510.011312:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[25333:9981033:0507/022510.011323:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/AndroidStudio2025.2.1/Crashpad/settings.dat: No such file or directory (2)
+[25333:9981033:0507/022510.011329:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[25333:9981033:0507/022510.011369:VERBOSE1:chrome/updater/updater.cc:103] Crash reporting initialized.
+[25333:9981045:0507/022510.011582:VERBOSE1:chrome/updater/app/app_wakeall.cc:58] Launching `/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[25336:9981049:0507/022510.016925:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[25336:9981049:0507/022510.017053:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 485892, parent pid: 25333
+[25336:9981049:0507/022510.018415:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[25338:9981053:0507/022510.023815:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=149.0.7814.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[25338:9981053:0507/022510.023932:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 485892, parent pid: 1
+[25338:9981053:0507/022510.025139:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[25336:9981049:0507/022510.025441:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[25336:9981049:0507/022510.025867:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[25336:9981049:0507/022510.025911:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[25336:9981049:0507/022510.025959:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[25336:9981049:0507/022510.025966:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/AndroidStudio2025.2.1/Crashpad/settings.dat: No such file or directory (2)
+[25336:9981049:0507/022510.025972:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[25336:9981049:0507/022510.026005:VERBOSE1:chrome/updater/updater.cc:103] Crash reporting initialized.
+[25336:9981049:0507/022510.026127:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:61] Run
+[25238:9979887:0507/022517.456826:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[25336:9981049:0507/022527.603389:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[25336:9981049:0507/022527.603893:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[25336:9981049:0507/022527.603912:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--wake) returned 0.
+[25333:9981045:0507/022527.623223:VERBOSE1:chrome/updater/app/app_wakeall.cc:68] `/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[25333:9981033:0507/022527.623367:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[25333:9981033:0507/022527.623822:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[25333:9981033:0507/022527.623840:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--wake-all) returned 0.
+[25338:9981053:0507/022537.616720:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[25338:9981053:0507/022537.616767:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--crash-handler) returned 0.
+[25335:9981037:0507/022537.618868:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[25335:9981037:0507/022537.619300:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--crash-handler) returned 0.
+[25238:9979887:0507/022605.615338:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+DevTools listening on ws://127.0.0.1:9222/devtools/browser/d2094468-e542-48c1-b9af-63d7062cfbd6
+Created TensorFlow Lite XNNPACK delegate for CPU.
+Trying to load the allocator multiple times. This is *not* supported.
+[25580:9983747:0507/022710.015512:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[25580:9983783:0507/022722.538030:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[25580:9983783:0507/022722.538151:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[25659:9984805:0507/022726.424331:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[25659:9984805:0507/022726.424516:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 486028, parent pid: 25580
+[25659:9984805:0507/022726.426478:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[25661:9984809:0507/022726.433661:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=149.0.7814.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[25661:9984809:0507/022726.433817:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 486028, parent pid: 1
+[25661:9984809:0507/022726.435437:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[25659:9984805:0507/022726.435820:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[25659:9984805:0507/022726.436376:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[25659:9984805:0507/022726.436437:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[25659:9984805:0507/022726.436494:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[25659:9984805:0507/022726.436508:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/AndroidStudio2025.2.1/Crashpad/settings.dat: No such file or directory (2)
+[25659:9984805:0507/022726.436514:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[25659:9984805:0507/022726.436554:VERBOSE1:chrome/updater/updater.cc:103] Crash reporting initialized.
+[25659:9984817:0507/022726.436784:VERBOSE1:chrome/updater/app/app_wakeall.cc:58] Launching `/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[25662:9984821:0507/022726.442119:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[25662:9984821:0507/022726.442239:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 486028, parent pid: 25659
+[25662:9984821:0507/022726.443733:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[25664:9984825:0507/022726.449756:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=149.0.7814.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[25664:9984825:0507/022726.449890:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 486028, parent pid: 1
+[25664:9984825:0507/022726.451342:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[25662:9984821:0507/022726.451692:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[25662:9984821:0507/022726.452162:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[25662:9984821:0507/022726.452209:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[25662:9984821:0507/022726.452253:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[25662:9984821:0507/022726.452268:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/AndroidStudio2025.2.1/Crashpad/settings.dat: No such file or directory (2)
+[25662:9984821:0507/022726.452274:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[25662:9984821:0507/022726.452308:VERBOSE1:chrome/updater/updater.cc:103] Crash reporting initialized.
+[25662:9984821:0507/022726.452452:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:61] Run
+[25580:9983747:0507/022739.177162:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[25662:9984821:0507/022743.524794:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[25662:9984821:0507/022743.525523:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[25662:9984821:0507/022743.525632:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--wake) returned 0.
+[25659:9984817:0507/022743.773989:VERBOSE1:chrome/updater/app/app_wakeall.cc:68] `/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[25659:9984805:0507/022743.774242:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[25659:9984805:0507/022743.774735:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[25659:9984805:0507/022743.774763:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--wake-all) returned 0.
+[25664:9984825:0507/022753.538118:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[25664:9984825:0507/022753.538153:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--crash-handler) returned 0.
+[25661:9984809:0507/022753.540081:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[25661:9984809:0507/022753.540117:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--crash-handler) returned 0.
+[25580:9983747:0507/022832.852181:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[25580:9983747:0507/023007.895488:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+DevTools listening on ws://127.0.0.1:9222/devtools/browser/9845c4ed-fd1e-4f5f-9223-d2fe1ad57629
+Created TensorFlow Lite XNNPACK delegate for CPU.
+Trying to load the allocator multiple times. This is *not* supported.
+[26081:9989553:0507/023054.133550:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[26155:9990489:0507/023110.447158:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[26155:9990489:0507/023110.447323:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 486252, parent pid: 26081
+[26155:9990489:0507/023110.449068:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[26157:9990493:0507/023110.455247:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=149.0.7814.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[26157:9990493:0507/023110.455387:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 486252, parent pid: 1
+[26157:9990493:0507/023110.456878:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[26155:9990489:0507/023110.457218:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[26155:9990489:0507/023110.457713:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[26155:9990489:0507/023110.457765:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[26155:9990489:0507/023110.457814:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[26155:9990489:0507/023110.457823:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/AndroidStudio2025.2.1/Crashpad/settings.dat: No such file or directory (2)
+[26155:9990489:0507/023110.457829:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[26155:9990489:0507/023110.457867:VERBOSE1:chrome/updater/updater.cc:103] Crash reporting initialized.
+[26155:9990501:0507/023110.458070:VERBOSE1:chrome/updater/app/app_wakeall.cc:58] Launching `/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[26158:9990505:0507/023110.463346:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[26158:9990505:0507/023110.463493:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 486252, parent pid: 26155
+[26158:9990505:0507/023110.464964:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[26160:9990509:0507/023110.470950:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=149.0.7814.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[26160:9990509:0507/023110.471076:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 486252, parent pid: 1
+[26160:9990509:0507/023110.472472:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[26158:9990505:0507/023110.472795:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[26158:9990505:0507/023110.473245:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[26158:9990505:0507/023110.473292:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[26158:9990505:0507/023110.473337:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[26158:9990505:0507/023110.473344:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/AndroidStudio2025.2.1/Crashpad/settings.dat: No such file or directory (2)
+[26158:9990505:0507/023110.473350:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[26158:9990505:0507/023110.473388:VERBOSE1:chrome/updater/updater.cc:103] Crash reporting initialized.
+[26158:9990505:0507/023110.473516:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:61] Run
+[26081:9989570:0507/023112.379774:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[26081:9989570:0507/023112.379802:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[26081:9989553:0507/023123.063767:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[26158:9990505:0507/023127.823641:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[26158:9990505:0507/023127.824804:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[26158:9990505:0507/023127.824834:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--wake) returned 0.
+[26155:9990501:0507/023128.057726:VERBOSE1:chrome/updater/app/app_wakeall.cc:68] `/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[26155:9990489:0507/023128.058012:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[26155:9990489:0507/023128.058756:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[26155:9990489:0507/023128.058795:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--wake-all) returned 0.
+[26160:9990509:0507/023137.836507:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[26160:9990509:0507/023137.836544:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--crash-handler) returned 0.
+[26157:9990493:0507/023137.838268:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[26157:9990493:0507/023137.838757:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--crash-handler) returned 0.
+[26081:9989553:0507/023216.602453:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[26081:9989553:0507/023407.589066:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[26081:9989570:0507/023621.930156:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[26081:9989570:0507/023621.930528:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[26081:9989570:0507/023627.335652:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[26081:9989570:0507/023627.335682:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[26081:9989553:0507/023651.071690:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[26081:9989553:0507/024327.048463:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[26081:9989570:0507/024523.098233:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[26081:9989570:0507/024523.098609:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[26081:9989570:0507/024720.306843:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[26081:9989570:0507/024720.307231:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+[26081:9989570:0507/024727.843528:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[26081:9989570:0507/024727.843806:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (ipc/send) invalid destination port (0x10000003)
+
+DevTools listening on ws://127.0.0.1:9222/devtools/browser/550fc013-672a-44ae-9973-002ea9a02521
+Created TensorFlow Lite XNNPACK delegate for CPU.
+Trying to load the allocator multiple times. This is *not* supported.
+[29376:10032015:0507/030141.259115:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[29438:10032755:0507/030156.531862:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[29438:10032755:0507/030156.532030:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 488098, parent pid: 29376
+[29438:10032755:0507/030156.533737:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[29440:10032759:0507/030156.539981:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=149.0.7814.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[29440:10032759:0507/030156.540104:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 488098, parent pid: 1
+[29440:10032759:0507/030156.541570:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[29438:10032755:0507/030156.541897:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[29438:10032755:0507/030156.542382:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[29438:10032755:0507/030156.542433:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[29438:10032755:0507/030156.542484:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[29438:10032755:0507/030156.542493:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/AndroidStudio2025.2.1/Crashpad/settings.dat: No such file or directory (2)
+[29438:10032755:0507/030156.542500:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[29438:10032755:0507/030156.542537:VERBOSE1:chrome/updater/updater.cc:103] Crash reporting initialized.
+[29438:10032767:0507/030156.542728:VERBOSE1:chrome/updater/app/app_wakeall.cc:58] Launching `/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[29441:10032771:0507/030156.547804:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[29441:10032771:0507/030156.547928:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 488098, parent pid: 29438
+[29441:10032771:0507/030156.549314:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[29443:10032775:0507/030156.555449:VERBOSE1:chrome/updater/updater.cc:352] Version: 149.0.7814.0, opt, ARM_64, command line: /Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=149.0.7814.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[29443:10032775:0507/030156.555597:VERBOSE1:chrome/updater/updater.cc:355] OS version: 26.4.1, arch: arm64, System uptime (seconds): 488098, parent pid: 1
+[29443:10032775:0507/030156.556951:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[29441:10032771:0507/030156.557256:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[29441:10032771:0507/030156.557717:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[29441:10032771:0507/030156.557769:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[29441:10032771:0507/030156.557815:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[29441:10032771:0507/030156.557823:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/AndroidStudio2025.2.1/Crashpad/settings.dat: No such file or directory (2)
+[29441:10032771:0507/030156.557829:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/austin/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[29441:10032771:0507/030156.557862:VERBOSE1:chrome/updater/updater.cc:103] Crash reporting initialized.
+[29441:10032771:0507/030156.557983:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:61] Run
+[29376:10032015:0507/030205.027569:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[29441:10032771:0507/030212.629884:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[29441:10032771:0507/030212.630350:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[29441:10032771:0507/030212.630373:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--wake) returned 0.
+[29438:10032767:0507/030212.781511:VERBOSE1:chrome/updater/app/app_wakeall.cc:68] `/Users/austin/Library/Application Support/Google/GoogleUpdater/149.0.7814.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[29438:10032755:0507/030212.781769:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[29438:10032755:0507/030212.782418:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[29438:10032755:0507/030212.782447:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--wake-all) returned 0.
+[29443:10032775:0507/030222.643182:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[29443:10032775:0507/030222.643209:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--crash-handler) returned 0.
+[29440:10032759:0507/030222.644803:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[29440:10032759:0507/030222.645175:VERBOSE1:chrome/updater/updater.cc:390] UpdaterMain (--crash-handler) returned 0.
+[29376:10032015:0507/030253.571108:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[29376:10031958:0507/030301.941272:ERROR:CONSOLE:561] "Uncaught (in promise) Error: Node cannot be found in the current page.", source: devtools://devtools/bundled/panels/elements/elements.js (561)
+[29376:10032015:0507/030437.874328:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[29376:10032015:0507/030804.629077:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT

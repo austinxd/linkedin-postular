@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-05-06T02:52:31",
+  "date": "2026-05-06",
+  "source": "linkedin",
+  "source_job_id": "4409000062",
+  "destination": "pandape",
+  "title": "Jefe de Administración y Finanzas",
+  "company": "Manguifajas Industriales",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4409000062&keywords=jefe%20de%20finanzas&location=Lima%2C%20Peru&sortBy=DD",
+  "dest_url": "https://manguifajas-industriales.pandape.computrabajo.com/Detail/12419457?ov=19&utm_source=linkedinjobboard&utm_medium=referral&utm_campaign=feed&utm_term=organic&utm_content=ats",
+  "status": "applied",
+  "killer_questions": [
+    {
+      "question": "cuales son tus pretensiones salariales",
+      "answer": "Mis pretensiones salariales son de entre 12,000 y 18,000 PEN mensuales, bruto.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Tienes experiencia en la gestión financiera y administrativa?",
+      "answer": "Sí",
+      "source": "llm",
+      "options": [
+        "Sí",
+        "No"
+      ]
+    },
+    {
+      "question": "¿Cuál es tu formación académica finalizada?",
+      "answer": "Maestría",
+      "source": "llm",
+      "options": [
+        "Técnico",
+        "Universitaria / I.P. / C.F.T.",
+        "Maestría",
+        "Sin estudios"
+      ]
+    },
+    {
+      "question": "¿Tienes experiencia liderando equipos de trabajo?",
+      "answer": "Sí",
+      "source": "llm",
+      "options": [
+        "Sí",
+        "No"
+      ]
+    }
+  ],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": true
+}

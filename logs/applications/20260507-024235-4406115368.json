@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-05-07T02:42:35",
+  "date": "2026-05-07",
+  "source": "linkedin",
+  "source_job_id": "4406115368",
+  "destination": "pandape",
+  "title": "Ejecutivo Financiero de Soluciones de Pago/ Sueldo Base s/1500",
+  "company": "Recsa Perú",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4406115368&keywords=Jefe%20de%20Finanzas&location=Lima%2C%20Peru&sortBy=DD",
+  "dest_url": "https://recsa.pandape.computrabajo.com/Detail/12370657?ov=19&utm_source=linkedinjobboard&utm_medium=referral&utm_campaign=feed&utm_term=organic&utm_content=ats",
+  "status": "applied",
+  "killer_questions": [
+    {
+      "question": "¿En que distrito vives?",
+      "answer": "San Isidro",
+      "source": "llm"
+    },
+    {
+      "question": "Dejanos tu numero de whatsapp actualizado",
+      "answer": "Con gusto puedo detallar este punto en una entrevista.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Tienes disponibilidad para trabajar de Lunes a Viernes en nuestra sede Lima Cercado? Plaza San Martín",
+      "answer": "Sí, tengo disponibilidad para trabajar de lunes a viernes en Lima Cercado. Estoy dispuesto a incorporarme de manera inmediata.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Tienes estudios técnicos y/o universitarios en curso o trunco? Que carrera",
+      "answer": "Tengo un título universitario en Administración por la Universidad de Lima, donde me gradué en junio de 2014, y actualmente estoy cursando un MBA en Administración de Empresas en la Universidad Internacional de La Rioja (UNIR), que finalizaré en diciembre de 2023.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Tienes experiencia en el sector bancario o cobranzas castigo en entidades financieras? Detalla",
+      "answer": "No tengo experiencia directa en el sector bancario o en cobranzas castigo en entidades financieras. Sin embargo, he trabajado en el área de contabilidad y finanzas en empresas como Financiera TFC, donde desempeñé el rol de Ejecutivo Comercial Inmobiliario, destacando en colocaciones y sustentos crediticios ante comités de riesgos. Mi trayectoria incluye habilidades en negociación bancaria y optimización de procesos financieros, lo que podría ser valioso en un entorno financiero. Con gusto puedo detallar este punto en una entrevista.",
+      "source": "llm"
+    }
+  ],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": true
+}

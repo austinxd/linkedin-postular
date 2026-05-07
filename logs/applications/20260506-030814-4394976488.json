@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-05-06T03:08:14",
+  "date": "2026-05-06",
+  "source": "linkedin",
+  "source_job_id": "4394976488",
+  "destination": "unknown",
+  "title": "Country Manager Peru | Operations Positions",
+  "company": "EBANX",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4394976488&keywords=jefe%20de%20finanzas&location=Lima%2C%20Peru&sortBy=DD",
+  "dest_url": "",
+  "status": "skipped",
+  "killer_questions": [],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": false
+}

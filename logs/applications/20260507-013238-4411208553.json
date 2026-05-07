@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-05-07T01:32:38",
+  "date": "2026-05-07",
+  "source": "linkedin",
+  "source_job_id": "4411208553",
+  "destination": "manual:tally.so",
+  "title": "Ejecutivo de Ventas B2B Banca, Seguros, Telecomunicaciones",
+  "company": "Create Value",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4411208553&keywords=Jefe%20de%20Finanzas&location=Lima%2C%20Peru&sortBy=DD",
+  "dest_url": "https://tally.so/r/wozO0O?ref=EMP025&proceso=Ejecutivocomercial",
+  "status": "skipped",
+  "killer_questions": [],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": false
+}

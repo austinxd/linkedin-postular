@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-05-07T02:38:28",
+  "date": "2026-05-07",
+  "source": "linkedin",
+  "source_job_id": "4407134430",
+  "destination": "unknown",
+  "title": "Head of Finance",
+  "company": "Match Executive",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4407134430&keywords=Jefe%20de%20Finanzas&location=Lima%2C%20Peru&sortBy=DD",
+  "dest_url": "",
+  "status": "skipped",
+  "killer_questions": [],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": false
+}

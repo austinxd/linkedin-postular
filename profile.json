@@ -1,0 +1,189 @@
+{
+  "personal": {
+    "first_name": "Alex",
+    "last_name": "Abad Bedoya",
+    "full_name": "Alex Antonio Abad Bedoya",
+    "birth_date": "04/05/1990",
+    "gender": "male",
+    "nationality": "peruvian",
+    "marital_status": "single",
+    "has_children": "no",
+    "document_type": "DNI",
+    "document_number": "46289449"
+  },
+  "contact": {
+    "email": "AbadB.Alex@gmail.com",
+    "phone": {
+      "country_code": "+51",
+      "local": "999211682"
+    },
+    "address": {
+      "street": "Calle Victor Maurtua",
+      "number": "160",
+      "complement": "",
+      "city": "San Isidro",
+      "state": "Lima",
+      "country": "Peru",
+      "postal_code": "15073"
+    },
+    "linkedin_url": "https://www.linkedin.com/in/alex-abad",
+    "github_url": "",
+    "portfolio_url": "",
+    "skype": ""
+  },
+  "professional": {
+    "current_position": "Gerente General",
+    "current_company": "Grupo Bros",
+    "desired_position": "Director Financiero",
+    "experience_years": 13,
+    "education_level": "master",
+    "summary": "Profesional con más de 15 años de experiencia en dirección financiera y comercial. MBA por la Universidad Internacional de La Rioja (UNIR). Experto en estructuración de inversiones y SPV, negociación con banca e inversionistas, optimización y automatización de procesos con SQL y Power BI. Amplia experiencia en finanzas, contabilidad y tesorería en sectores entretenimiento, construcción, inmobiliario y consumo masivo."
+  },
+  "preferences": {
+    "salary_min": 12000,
+    "salary_max": 18000,
+    "salary_currency": "PEN",
+    "working_hour": "full_time",
+    "contract_type": "indefinite",
+    "willing_to_remote": true,
+    "willing_to_relocate": false,
+    "willing_to_travel": true,
+    "available_start": "immediate",
+    "notice_period": "30 días",
+    "needs_visa_sponsorship": false,
+    "work_authorization_peru": true
+  },
+  "experience": [
+    {
+      "title": "Gerente General",
+      "company": "Grupo Bros",
+      "area": "Dirección / Gerencia",
+      "industry": "Entretenimiento / Marketing",
+      "location": "Lima, Perú",
+      "start_date": "01/05/2022",
+      "end_date": "30/04/2026",
+      "is_current": false,
+      "description": "Incremento de facturación anual de USD 70K (2023) a USD 3M (2024), USD 7M (2025) y proyección USD 10M (2026). Estructuración con inversionistas, creación de SPV/Subsidiarias. Dirección de tesorería y contabilidad."
+    },
+    {
+      "title": "Coordinador General de Proyecto",
+      "company": "Grupo Inhouse - Kallpa",
+      "area": "Contabilidad / Finanzas",
+      "industry": "Inmobiliario / Construcción",
+      "location": "Lima, Perú",
+      "start_date": "01/03/2018",
+      "end_date": "30/06/2020",
+      "is_current": false,
+      "description": "Liderazgo de equipo general, comercial, proyectos, contabilidad y tesorería. Operación de USD 8M anuales. Optimización de procesos con SQL y nube. Gestión de propuestas crediticias con Scotiabank, BBVA, Interbank y BIF. Ahorros tributarios > USD 200K."
+    },
+    {
+      "title": "Business Building Financial Planning Analyst",
+      "company": "Unilever",
+      "area": "Contabilidad / Finanzas",
+      "industry": "Consumo masivo",
+      "location": "Lima, Perú",
+      "start_date": "01/02/2016",
+      "end_date": "31/05/2017",
+      "is_current": false,
+      "description": "Operación USD 120M anuales. Evaluación de propuestas comerciales con impacto en S&OP y forecast Food Solutions. Reporting regional a la matriz: balance, EERR, S&OP, working capital, BSC."
+    },
+    {
+      "title": "Coordinador de Gerencia",
+      "company": "Inversiones Benavides 777",
+      "area": "Contabilidad / Finanzas",
+      "industry": "Inmobiliario",
+      "location": "Lima, Perú",
+      "start_date": "01/01/2015",
+      "end_date": "29/02/2016",
+      "is_current": false,
+      "description": "Operación USD 10M anuales. Negociación de contratos de arriendo. Seguimiento del primer proyecto LEED Platinum del Perú (Leuro, USD 100M+). Evaluación TIR/VAN/ROI de proyectos."
+    },
+    {
+      "title": "Ejecutivo Comercial Inmobiliario",
+      "company": "Financiera TFC",
+      "area": "Contabilidad / Finanzas",
+      "industry": "Banca / Financiera",
+      "location": "Lima, Perú",
+      "start_date": "01/09/2014",
+      "end_date": "31/01/2015",
+      "is_current": false,
+      "description": "USD 100M+ en colocaciones. Destacado en Techo Propio y Mi Vivienda. Sustento crediticio ante comités de riesgos."
+    },
+    {
+      "title": "Coordinador de Tesorería y Finanzas",
+      "company": "Constructora Galilea S.A.C.",
+      "area": "Contabilidad / Finanzas",
+      "industry": "Construcción",
+      "location": "Lima, Perú",
+      "start_date": "01/06/2013",
+      "end_date": "30/09/2014",
+      "is_current": false,
+      "description": "Operación USD 100M+ anuales."
+    },
+    {
+      "title": "Treasury Intern",
+      "company": "General Motors",
+      "area": "Contabilidad / Finanzas",
+      "industry": "Automotriz",
+      "location": "Lima, Perú",
+      "start_date": "01/12/2012",
+      "end_date": "30/06/2013",
+      "is_current": false,
+      "description": "Internship en tesorería para operación USD 150M+."
+    },
+    {
+      "title": "Practicante de Finanzas",
+      "company": "Grupo Romero - COGESA",
+      "area": "Contabilidad / Finanzas",
+      "industry": "Consumo masivo",
+      "location": "Lima, Perú",
+      "start_date": "01/09/2012",
+      "end_date": "31/12/2012",
+      "is_current": false,
+      "description": ""
+    }
+  ],
+  "education": [
+    {
+      "degree": "MBA",
+      "field": "Administración de Empresas",
+      "institution": "Universidad Internacional de La Rioja (UNIR)",
+      "location": "España",
+      "start_date": "01/01/2022",
+      "end_date": "31/12/2023",
+      "is_current": false
+    },
+    {
+      "degree": "Universitario",
+      "field": "Administración",
+      "institution": "Universidad de Lima",
+      "location": "Lima, Perú",
+      "start_date": "01/03/2008",
+      "end_date": "30/06/2014",
+      "is_current": false,
+      "notes": "Quinto Superior"
+    }
+  ],
+  "languages": [
+    {"name": "Spanish", "level": "native"},
+    {"name": "English", "level": "advanced"}
+  ],
+  "skills": [
+    "SAP",
+    "Starsoft",
+    "Power BI",
+    "SQL",
+    "DAX",
+    "Microsoft Office",
+    "FP&A",
+    "Tesorería",
+    "Estructuración financiera",
+    "SPV",
+    "Negociación bancaria",
+    "Reporting financiero",
+    "Control de gestión",
+    "Planeamiento financiero"
+  ],
+  "cv_path": "cv/alex.pdf",
+  "cover_letter": "Estimados, mi nombre es Alex Abad. Cuento con 15+ años de experiencia en dirección financiera y comercial, MBA por UNIR y trayectoria en empresas como Unilever, Grupo Bros y el sector inmobiliario peruano. Me interesa la posición y considero que mi experiencia en estructuración financiera, gestión de equipos y optimización de procesos puede aportar valor. Quedo atento. Saludos cordiales."
+}

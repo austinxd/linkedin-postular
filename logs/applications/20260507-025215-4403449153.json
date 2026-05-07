@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-05-07T02:52:15",
+  "date": "2026-05-07",
+  "source": "linkedin",
+  "source_job_id": "4403449153",
+  "destination": "pandape",
+  "title": "Administrador de Agencia",
+  "company": "Panther Securities PLC (PNS)",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4403449153&keywords=Jefe%20de%20Finanzas&location=Lima%2C%20Peru&sortBy=DD&start=25",
+  "dest_url": "https://promocion-servicios-varios.pandape.computrabajo.com/Detail/12314355?ov=19&utm_source=linkedinjobboard&utm_medium=referral&utm_campaign=feed&utm_term=organic&utm_content=ats",
+  "status": "applied",
+  "killer_questions": [
+    {
+      "question": "¿Estarias de acuerdo con el rango salarial de 3000 -3500?",
+      "answer": "NO",
+      "source": "llm",
+      "options": [
+        "SI",
+        "NO"
+      ]
+    }
+  ],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": true
+}

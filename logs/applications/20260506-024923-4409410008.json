@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-05-06T02:49:23",
+  "date": "2026-05-06",
+  "source": "linkedin",
+  "source_job_id": "4409410008",
+  "destination": "pandape",
+  "title": "Jefe de Contabilidad y Planeamiento Financiero",
+  "company": "Carrillo Royalty",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4409410008&keywords=jefe%20de%20finanzas&location=Lima%2C%20Peru&sortBy=DD",
+  "dest_url": "https://grupocarrilloroyalty.pandape.computrabajo.com/Detail/12432000?ov=19&utm_source=linkedinjobboard&utm_medium=referral&utm_campaign=feed&utm_term=organic&utm_content=ats",
+  "status": "applied",
+  "killer_questions": [
+    {
+      "question": "¿Eres Contador Público titulado, colegiado y actualmente habilitado?",
+      "answer": "No",
+      "source": "llm",
+      "options": [
+        "Si",
+        "No"
+      ]
+    },
+    {
+      "question": "¿Cuántos años de experiencia tienes en contabilidad integral?",
+      "answer": "Mas de 5 años",
+      "source": "llm",
+      "options": [
+        "Menos de 3 años",
+        "De 3 a 5 años",
+        "Mas de 5 años"
+      ]
+    },
+    {
+      "question": "¿Cuál es tu expectativa salarial mensual?",
+      "answer": "Mi expectativa salarial mensual se encuentra entre 12,000 y 18,000 PEN, en modalidad bruta.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Tienes disponibilidad para trabajar de manera presencial de lunes a sábado en San Isidro?",
+      "answer": "Si",
+      "source": "llm",
+      "options": [
+        "Si",
+        "No"
+      ]
+    }
+  ],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": true
+}

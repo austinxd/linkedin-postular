@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-05-06T02:54:17",
+  "date": "2026-05-06",
+  "source": "linkedin",
+  "source_job_id": "4408269450",
+  "destination": "pandape",
+  "title": "Administrador C/Exp 5 años",
+  "company": "Biotech",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4408269450&keywords=jefe%20de%20finanzas&location=Lima%2C%20Peru&sortBy=DD",
+  "dest_url": "https://biotech-corp-sac.pandape.computrabajo.com/Detail/12406683?ov=19&utm_source=linkedinjobboard&utm_medium=referral&utm_campaign=feed&utm_term=organic&utm_content=ats",
+  "status": "applied",
+  "killer_questions": [
+    {
+      "question": "Mencione su formación profesional, grado académico y universidad.",
+      "answer": "Cuento con un MBA en Administración de Empresas por la Universidad Internacional de La Rioja (UNIR), que finalicé en 2023. Además, tengo un grado universitario en Administración por la Universidad de Lima, donde me gradué en 2014 con el reconocimiento de Quinto Superior.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Cuenta con experiencia administrando plantas de producción del sector agroindustrial o industrial? Detalle Empresa y numero de personal",
+      "answer": "Con gusto puedo detallar este punto en una entrevista.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Cuenta con estudios de Maestría o MBA? Detalle especialidad, institución y estado (culminado o en curso).",
+      "answer": "Cuento con un MBA en Administración de Empresas por la Universidad Internacional de La Rioja (UNIR), el cual está en curso y se prevé culminar en diciembre de 2023.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Cuenta con Maestría o MBA? Detalle.",
+      "answer": "Cuento con un MBA en Administración de Empresas por la Universidad Internacional de La Rioja (UNIR), que finalicé en diciembre de 2023. Este programa me ha proporcionado una sólida formación en dirección financiera y comercial, complementando mis más de 15 años de experiencia en el sector.",
+      "source": "llm"
+    },
+    {
+      "question": "Comente una mejora o iniciativa que haya implementado en procesos administrativos.",
+      "answer": "Implementé la optimización de procesos utilizando SQL y Power BI en mi rol como Coordinador General de Proyecto en Grupo Inhouse - Kallpa. Esto permitió una gestión más eficiente de operaciones anuales de USD 8M, lo que resultó en ahorros tributarios superiores a USD 200K y una mejora significativa en la toma de decisiones financieras.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Qué experiencia tiene en manejo de presupuestos, compras o control documentario?",
+      "answer": "Tengo más de 15 años de experiencia en dirección financiera, donde he manejado presupuestos significativos en diversas empresas. En mi rol como Coordinador General de Proyecto en Grupo Inhouse - Kallpa, lideré la operación de USD 8M anuales, optimizando procesos y gestionando propuestas crediticias. Además, en mi posición actual como Gerente General en Grupo Bros, estoy a cargo de la dirección de tesorería y contabilidad, lo que incluye el control de presupuestos y compras.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Tiene experiencia trabajando con equipos comerciales o áreas comerciales?",
+      "answer": "SI",
+      "source": "llm",
+      "options": [
+        "SI",
+        "No mucho",
+        "NO"
+      ]
+    },
+    {
+      "question": "Nivel de Excel avanzado",
+      "answer": "SI",
+      "source": "llm",
+      "options": [
+        "SI",
+        "NO"
+      ]
+    },
+    {
+      "question": "¿Ha implementado KPIs de gestión para equipos o áreas de la empresa?",
+      "answer": "Ha liderado su implementación",
+      "source": "llm",
+      "options": [
+        "Ha participado en su implementación",
+        "Ha liderado su implementación"
+      ]
+    },
+    {
+      "question": "Nivel Power BI.",
+      "answer": "Avanzado",
+      "source": "llm",
+      "options": [
+        "Básico",
+        "Intermedio",
+        "Avanzado"
+      ]
+    },
+    {
+      "question": "Indique su pretensión salarial y detalle su situación laboral actual.",
+      "answer": "Mi pretensión salarial se encuentra entre 12,000 y 18,000 PEN mensuales y brutos. Actualmente, ocupo el cargo de Gerente General en Grupo Bros, donde he liderado un incremento significativo en la facturación anual. Estoy disponible para una incorporación inmediata.",
+      "source": "llm"
+    }
+  ],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": true
+}

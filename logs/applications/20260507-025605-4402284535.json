@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-05-07T02:56:05",
+  "date": "2026-05-07",
+  "source": "linkedin",
+  "source_job_id": "4402284535",
+  "destination": "pandape",
+  "title": "Supervisor Banca Convenios Banbif / Lima",
+  "company": "Alvcom",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4402284535&keywords=Jefe%20de%20Finanzas&location=Lima%2C%20Peru&sortBy=DD&start=25",
+  "dest_url": "https://alvcom.pandape.computrabajo.com/Detail/12293445?ov=19&utm_source=linkedinjobboard&utm_medium=referral&utm_campaign=feed&utm_term=organic&utm_content=ats",
+  "status": "applied",
+  "killer_questions": [
+    {
+      "question": "¿Tiene experiencia en creditos por convenios? ¿Cuánto tiempo?",
+      "answer": "Tengo experiencia en gestión de propuestas crediticias, particularmente en mi rol como Coordinador General de Proyecto en Grupo Inhouse - Kallpa, donde lideré la operación de USD 8M anuales y gestioné propuestas con entidades como Scotiabank, BBVA, Interbank y BIF. Esta experiencia se desarrolló entre marzo de 2018 y junio de 2020, lo que suma aproximadamente 2 años en este ámbito.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Tienes experiencia Supervisando Equipos de Asesores en Prestamos por Convenios del rubro Financiero? ¿Cuánto tiempo?¿De cuántas personas? . Cuéntanos brevemente tu experiencia.",
+      "answer": "No tengo experiencia específica supervisando equipos de asesores en préstamos por convenios del rubro financiero. Sin embargo, tengo 13 años de experiencia en dirección financiera y comercial, donde he liderado equipos en áreas de contabilidad y finanzas. En mi rol como Coordinador General de Proyecto en Grupo Inhouse - Kallpa, lideré un equipo general que incluía áreas comerciales y de tesorería, gestionando operaciones anuales de USD 8M. Estoy dispuesto a detallar más sobre mi experiencia en una entrevista.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Estas de acuerdo con las condiciones descritas en la publicación? (COMISIONES SIN TOPE, RxH)",
+      "answer": "Con gusto puedo detallar este punto en una entrevista.",
+      "source": "llm"
+    },
+    {
+      "question": "Indique su número de teléfono para poder contactarlo",
+      "answer": "+51 999211682",
+      "source": "llm"
+    }
+  ],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": true
+}

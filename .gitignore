@@ -1,0 +1,15 @@
+# Secretos
+.env
+
+# Browser profiles (cookies = sesión LinkedIn, NO subir)
+browser-profile/
+browser-profile-cdp/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store

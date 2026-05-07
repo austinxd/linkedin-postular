@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-05-07T02:44:54",
+  "date": "2026-05-07",
+  "source": "linkedin",
+  "source_job_id": "4404833961",
+  "destination": "pandape",
+  "title": "Jefe de Zona/Villa Maria del Triunfo",
+  "company": "Coopac KORI",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4404833961&keywords=Jefe%20de%20Finanzas&location=Lima%2C%20Peru&sortBy=DD",
+  "dest_url": "https://coopac-kori.pandape.computrabajo.com/Detail/12339014?ov=19&utm_source=linkedinjobboard&utm_medium=referral&utm_campaign=feed&utm_term=organic&utm_content=ats",
+  "status": "applied",
+  "killer_questions": [
+    {
+      "question": "¿Cuál es tu carrera de estudios y grado alcanzado?",
+      "answer": "Tengo un MBA en Administración de Empresas por la Universidad Internacional de La Rioja (UNIR), que finalizaré en diciembre de 2023. Además, tengo un título universitario en Administración por la Universidad de Lima, donde me gradué en junio de 2014 con el reconocimiento de Quinto Superior.",
+      "source": "llm"
+    },
+    {
+      "question": "¿En qué distrito vives?",
+      "answer": "San Isidro",
+      "source": "llm"
+    },
+    {
+      "question": "¿Cuenta con disponibilidad para trasladarse por varias zonas del Sur de Lima Metropolitana?",
+      "answer": "No estoy dispuesto a reubicarme, pero tengo disponibilidad para viajar por varias zonas del Sur de Lima Metropolitana.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Cuáles son tus expectativas salariales?",
+      "answer": "Mis expectativas salariales son entre 12,000 y 18,000 PEN mensuales, bruto.",
+      "source": "llm"
+    },
+    {
+      "question": "Déjanos tu numero de celular y whatsaap actualizado.",
+      "answer": "+51 999211682",
+      "source": "llm"
+    }
+  ],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": true
+}

@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-05-07T02:50:53",
+  "date": "2026-05-07",
+  "source": "linkedin",
+  "source_job_id": "4404528577",
+  "destination": "pandape",
+  "title": "Jefe de crédito VMT",
+  "company": "Coopac KORI",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4404528577&keywords=Jefe%20de%20Finanzas&location=Lima%2C%20Peru&sortBy=DD&start=25",
+  "dest_url": "https://coopac-kori.pandape.computrabajo.com/Detail/12332711?ov=19&utm_source=linkedinjobboard&utm_medium=referral&utm_campaign=feed&utm_term=organic&utm_content=ats",
+  "status": "applied",
+  "killer_questions": [
+    {
+      "question": "¿Cuál es tu carrera de estudios y grado alcanzado?",
+      "answer": "MBA en Administración de Empresas por la Universidad Internacional de La Rioja (UNIR), finalizado en 2023. Además, tengo un título universitario en Administración de la Universidad de Lima, obtenido en 2014, con mención de Quinto Superior.",
+      "source": "llm"
+    },
+    {
+      "question": "¿En qué distrito vives?",
+      "answer": "San Isidro",
+      "source": "llm"
+    },
+    {
+      "question": "¿Cuáles son tus expectativas salariales?",
+      "answer": "Mis expectativas salariales están en un rango de 12,000 a 18,000 PEN mensuales, brutos.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Tienes exp como Jefe de credito Y cobranza , Ademas has manejado Grupo de Personas a tu cargo y responsabilidad? Comentame un poco",
+      "answer": "No tengo experiencia específica como Jefe de Crédito y Cobranza. Sin embargo, tengo más de 15 años de experiencia en dirección financiera y comercial, donde he liderado equipos en diversas áreas, incluyendo contabilidad y tesorería. En mi rol como Coordinador General de Proyecto en Grupo Inhouse, gestioné un equipo y optimicé procesos financieros, lo que me permitió obtener ahorros tributarios significativos y mejorar la eficiencia operativa. Mi experiencia en negociación bancaria y estructuración financiera también puede ser relevante para este tipo de posición.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Cuentas con disponibilidad de desarrollar tu trabajo 90 % campo y 10 % oficina?",
+      "answer": "Estoy dispuesto a trabajar en un 90 % en campo y un 10 % en oficina, ya que tengo experiencia en roles que requieren movilidad y contacto directo con los equipos y proyectos.",
+      "source": "llm"
+    },
+    {
+      "question": "Déjanos tu numero de celular y whatsaap actualizado.",
+      "answer": "+51 999211682",
+      "source": "llm"
+    }
+  ],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": true
+}

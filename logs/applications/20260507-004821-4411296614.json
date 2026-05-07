@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-05-07T00:48:21",
+  "date": "2026-05-07",
+  "source": "linkedin",
+  "source_job_id": "4411296614",
+  "destination": "pandape",
+  "title": "Jefe zonal / scotiabank",
+  "company": "SEF Perú Holding",
+  "location": "",
+  "source_url": "https://www.linkedin.com/jobs/search/?currentJobId=4411296614&keywords=jefe%20de%20finanzas&location=Lima%2C%20Peru&sortBy=DD",
+  "dest_url": "https://sef-peru-holding.pandape.computrabajo.com/Detail/12468375?ov=19&utm_source=linkedinjobboard&utm_medium=referral&utm_campaign=feed&utm_term=organic&utm_content=ats",
+  "status": "applied",
+  "killer_questions": [
+    {
+      "question": "Brindanos tu número de llamadas y WhatsApp actualizado:",
+      "answer": "+51 999211682",
+      "source": "llm"
+    },
+    {
+      "question": "2. ¿Cuántos años de experiencia tienes liderando equipos de ventas de campo en el sector financiero?",
+      "answer": "Con gusto puedo detallar este punto en una entrevista.",
+      "source": "llm"
+    },
+    {
+      "question": "3. ¿Cuentas actualmente con un equipo propio (supervisores y promotores)? Detalla cantidad.",
+      "answer": "Con gusto puedo detallar este punto en una entrevista.",
+      "source": "llm"
+    },
+    {
+      "question": "¿Qué productos financieros has comercializado?",
+      "answer": "He trabajado en la comercialización de productos financieros en el sector inmobiliario y de construcción, incluyendo propuestas crediticias con entidades como Scotiabank, BBVA, Interbank y BIF. Además, he participado en la estructuración de inversiones y creación de SPV para optimizar la financiación de proyectos. Mi experiencia incluye la gestión de operaciones financieras significativas, lo que me ha permitido desarrollar habilidades en negociación y análisis financiero.",
+      "source": "llm"
+    }
+  ],
+  "notes": [],
+  "errors": [],
+  "email_confirmation_required": true
+}

@@ -1,0 +1,91 @@
+{
+  "personal": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "full_name": "John Doe",
+    "birth_date": "01/01/1990",
+    "gender": "male",
+    "nationality": "peruvian",
+    "marital_status": "single",
+    "has_children": "no",
+    "document_type": "DNI",
+    "document_number": "00000000"
+  },
+  "contact": {
+    "email": "your-email@example.com",
+    "phone": {
+      "country_code": "+51",
+      "local": "999999999"
+    },
+    "address": {
+      "street": "Calle Ejemplo",
+      "number": "123",
+      "complement": "",
+      "city": "San Isidro",
+      "state": "Lima",
+      "country": "Peru",
+      "postal_code": "15073"
+    },
+    "linkedin_url": "https://www.linkedin.com/in/your-profile",
+    "github_url": "",
+    "portfolio_url": "",
+    "skype": ""
+  },
+  "professional": {
+    "current_position": "Your Current Title",
+    "current_company": "Your Company",
+    "desired_position": "Desired Title",
+    "experience_years": 5,
+    "education_level": "bachelor",
+    "summary": "Brief professional summary (2-4 sentences) describing your experience, expertise, and value proposition."
+  },
+  "preferences": {
+    "salary_min": 5000,
+    "salary_max": 10000,
+    "salary_currency": "PEN",
+    "working_hour": "full_time",
+    "contract_type": "indefinite",
+    "willing_to_remote": true,
+    "willing_to_relocate": false,
+    "willing_to_travel": true,
+    "available_start": "immediate",
+    "notice_period": "30 días",
+    "needs_visa_sponsorship": false,
+    "work_authorization_peru": true
+  },
+  "experience": [
+    {
+      "title": "Job Title",
+      "company": "Company Name",
+      "area": "Functional Area",
+      "industry": "Industry",
+      "location": "City, Country",
+      "start_date": "01/01/2020",
+      "end_date": "31/12/2024",
+      "is_current": false,
+      "description": "Brief description of role and accomplishments."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor",
+      "field": "Field of Study",
+      "institution": "University Name",
+      "location": "City, Country",
+      "start_date": "01/01/2014",
+      "end_date": "31/12/2018",
+      "is_current": false
+    }
+  ],
+  "languages": [
+    {"name": "Spanish", "level": "native"},
+    {"name": "English", "level": "advanced"}
+  ],
+  "skills": [
+    "Skill 1",
+    "Skill 2",
+    "Skill 3"
+  ],
+  "cv_path": "cv/your-cv.pdf",
+  "cover_letter": "Brief cover letter to use as default when forms request one."
+}
