@@ -45,45 +45,60 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <title>Panel — Postulaciones</title>
 <style>
   * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    font-family: "Inter", "Segoe UI Variable", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, system-ui, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
     margin: 0; padding: 24px; background: #f4f6f8; color: #1d2530;
+    font-size: 14px;
+    line-height: 1.45;
   }
-  h1 { margin: 0 0 24px; font-size: 22px; }
-  .stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 24px; }
+  h1 { margin: 0 0 24px; font-size: 24px; font-weight: 600; letter-spacing: -0.01em; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 24px; }
   .card {
-    background: #fff; border-radius: 8px; padding: 16px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    background: #fff; border-radius: 10px; padding: 18px 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.03);
+    border: 1px solid #e8edf2;
   }
-  .card .num { font-size: 28px; font-weight: 700; color: #2563eb; }
-  .card .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #64748b; }
+  .card .num { font-size: 30px; font-weight: 700; color: #2563eb; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .card .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: #64748b; margin-top: 4px; font-weight: 600; }
   .filters { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
   .filter {
     background: #fff; border: 1px solid #cbd5e1; border-radius: 6px;
-    padding: 6px 10px; font-size: 13px; cursor: pointer;
+    padding: 7px 12px; font-size: 13px; cursor: pointer;
+    font-family: inherit; color: #334155;
+    transition: all 0.15s ease;
   }
+  .filter:hover { border-color: #94a3b8; background: #f8fafc; }
   .filter.active { background: #2563eb; color: #fff; border-color: #2563eb; }
-  table { width: 100%; background: #fff; border-radius: 8px; overflow: hidden; border-collapse: collapse; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
-  th, td { padding: 12px; text-align: left; font-size: 13px; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
-  th { background: #f8fafc; font-weight: 600; color: #475569; text-transform: uppercase; font-size: 11px; letter-spacing: 0.05em; }
+  table {
+    width: 100%; background: #fff; border-radius: 10px; overflow: hidden;
+    border-collapse: separate; border-spacing: 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.03);
+    border: 1px solid #e8edf2;
+  }
+  th, td { padding: 12px 16px; text-align: left; font-size: 13px; border-bottom: 1px solid #eef1f5; vertical-align: top; }
+  th { background: #f8fafc; font-weight: 600; color: #475569; text-transform: uppercase; font-size: 11px; letter-spacing: 0.06em; }
   tr:last-child td { border-bottom: none; }
-  tr.row { cursor: pointer; }
+  tr.row { cursor: pointer; transition: background 0.1s ease; }
   tr.row:hover { background: #f8fafc; }
-  .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; text-transform: uppercase; }
-  .badge.applied { background: #dcfce7; color: #166534; }
-  .badge.skipped { background: #f1f5f9; color: #475569; }
-  .badge.failed  { background: #fee2e2; color: #991b1b; }
-  .destination { font-family: monospace; font-size: 11px; color: #475569; }
-  .pending-email { color: #b45309; font-size: 11px; }
+  .badge { display: inline-block; padding: 3px 9px; border-radius: 999px; font-size: 11px; font-weight: 600; letter-spacing: 0.02em; }
+  .badge.applied { background: #dcfce7; color: #15803d; }
+  .badge.skipped { background: #f1f5f9; color: #64748b; }
+  .badge.failed  { background: #fee2e2; color: #b91c1c; }
+  .destination { font-family: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 11px; color: #475569; }
+  .pending-email { color: #b45309; font-size: 11px; font-weight: 500; }
   .detail-row td { background: #f8fafc; padding: 16px 24px; }
-  .detail-row .qa { background: #fff; padding: 12px; border-radius: 6px; margin-bottom: 8px; border-left: 3px solid #2563eb; }
-  .detail-row .qa .q { font-weight: 600; color: #1d2530; margin-bottom: 4px; font-size: 13px; }
-  .detail-row .qa .a { color: #475569; font-size: 13px; white-space: pre-wrap; }
-  .detail-row .qa .src { font-size: 10px; color: #94a3b8; text-transform: uppercase; margin-top: 4px; }
+  .detail-row .qa { background: #fff; padding: 14px 16px; border-radius: 8px; margin-bottom: 8px; border-left: 3px solid #2563eb; box-shadow: 0 1px 2px rgba(0,0,0,0.03); }
+  .detail-row .qa .q { font-weight: 600; color: #1d2530; margin-bottom: 6px; font-size: 13px; }
+  .detail-row .qa .a { color: #475569; font-size: 13px; white-space: pre-wrap; line-height: 1.55; }
+  .detail-row .qa .src { font-size: 10px; color: #94a3b8; text-transform: uppercase; margin-top: 6px; letter-spacing: 0.05em; font-weight: 600; }
   .empty { text-align: center; padding: 60px; color: #94a3b8; }
   a { color: #2563eb; text-decoration: none; }
   a:hover { text-decoration: underline; }
-  .ts { font-family: monospace; font-size: 11px; color: #64748b; }
+  .ts { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 11px; color: #64748b; font-variant-numeric: tabular-nums; }
   .meta { font-size: 11px; color: #94a3b8; margin-top: 4px; }
 </style>
 </head>
